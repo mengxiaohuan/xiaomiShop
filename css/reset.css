@@ -1,0 +1,12 @@
+body, dl, dd, h1, h2, h3, h4, h5, h6, p, form{margin:0;}
+ol,ul{margin:0; padding:0;}
+ol,ul,li{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%; font-weight: lighter;}
+fieldset,img {border:0}
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {  display: block;  }
+table{border-collapse:collapse; border-spacing:0;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+a{ color: inherit;  text-decoration: none;  }
+
+
