@@ -70,6 +70,8 @@
             this.stepIndex = this.defaultIndex;//当前展示块的索引（步长）
             this.autoTimer = null;//自动轮播的定时器
 
+            this.isRun = false;
+
             //调取init，开启轮播图
             this.init();
 
@@ -184,7 +186,7 @@
             } else if (effect == 'fade') {
                 utils.each(this.slideList, (index, item) => {
 
-                    if(index == 0){
+                    if (index == 0) {
                         utils.css(item, {
                             width: width,
                             position: 'absolute',
@@ -193,7 +195,7 @@
                             zIndex: 1,
                             opacity: 1,
                         });
-                    }else {
+                    } else {
                         utils.css(item, {
                             width: width,
                             position: 'absolute',
@@ -214,19 +216,27 @@
 
             let {wrapper, width, height, speed, direction, effect, slideList} = this;
 
-            if(effect == 'slide') {
+            if (effect == 'slide') {
 
                 if (direction == 'horizontal') {
+
                     animate(wrapper, {
                         left: -this.stepIndex * width
-                    }, speed);
+                    }, speed, ()=>{
+                        this.isRun = false;
+                    });
+
                 } else if (direction == 'vertical') {
+
                     animate(wrapper, {
                         top: -this.stepIndex * height
-                    }, speed);
+                    }, speed, ()=>{
+                        this.isRun = false;
+                    });
+
                 }
 
-            }else if(effect == 'fade'){
+            } else if (effect == 'fade') {
 
                 let cur = slideList[this.stepIndex];
 
@@ -237,10 +247,12 @@
 
                 animate(cur, {
                     opacity: 1
-                }, speed, ()=>{
+                }, speed, () => {
                     utils.each(slideList, (index, item) => {
                         index == this.stepIndex ? null : utils.css(item, 'opacity', 0);
                     });
+
+                    this.isRun = false;
                 });
 
             }
@@ -254,7 +266,7 @@
 
             this.stepIndex++;
 
-            if(effect == 'slide') {
+            if (effect == 'slide') {
 
                 if (this.stepIndex >= this.slideList.length) {
                     //说明再往后切换就没有了，当前展示的是克隆的第一张
@@ -267,9 +279,9 @@
                     this.stepIndex = 1;
                 }
 
-            }else if (effect == 'fade'){
+            } else if (effect == 'fade') {
 
-                if(this.stepIndex >= this.slideList.length){
+                if (this.stepIndex >= this.slideList.length) {
                     this.stepIndex = 0;
                 }
             }
@@ -287,7 +299,7 @@
 
             let tempIndex = stepIndex;
 
-            if(effect == 'slide'){
+            if (effect == 'slide') {
                 tempIndex == slideList.length - 1 ? tempIndex = 0 : null;
             }
 
@@ -332,7 +344,11 @@
             [].forEach.call(focusList, (item, index) => {
                 item.onclick = () => {
 
-                    if(index == this.stepIndex) return;
+                    if(this.isRun) return;
+
+                    this.isRun = true;
+
+                    if (index == this.stepIndex) return;
 
                     this.stepIndex = index;//点击的是谁，就让stepIndex运动到哪里
 
@@ -349,13 +365,24 @@
             let {arrowRight, arrowLeft, wrapper, slideList, width, height, direction, effect} = this;
 
             arrowRight.onclick = () => {
+
+                if(this.isRun) return;
+
+                this.isRun = true;
+
                 this.autoMove();
+
             };//点击右按钮和执行轮播是一样的
 
             arrowLeft.onclick = () => {
+
+                if(this.isRun) return;
+
+                this.isRun = true;
+
                 this.stepIndex--;
 
-                if(effect == 'slide') {
+                if (effect == 'slide') {
                     if (this.stepIndex < 0) {
                         if (direction == 'horizontal') {
                             utils.css(wrapper, 'left', -(slideList.length - 1) * width);
@@ -365,9 +392,9 @@
 
                         this.stepIndex = slideList.length - 2;
                     }
-                }else if(effect == 'fade'){
-                    if(this.stepIndex < 0){
-                        this.stepIndex = slideList.length-1;
+                } else if (effect == 'fade') {
+                    if (this.stepIndex < 0) {
+                        this.stepIndex = slideList.length - 1;
                     }
                 }
 
