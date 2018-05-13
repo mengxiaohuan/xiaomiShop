@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>轮播图</title>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/banner.css">
+</head>
+<body>
+
+<section class="container" id="container">
+    <div class="wrapper">
+        <!--<div class="slide"><img src="img/banner1.jpg" alt=""></div>-->
+        <!--<div class="slide"><img src="img/banner2.jpg" alt=""></div>-->
+        <!--<div class="slide"><img src="img/banner3.jpg" alt=""></div>-->
+        <!--<div class="slide"><img src="img/banner4.jpg" alt=""></div>-->
+    </div>
+    <ul class="focus">
+        <!--<li class="active"></li>-->
+        <!--<li></li>-->
+        <!--<li></li>-->
+        <!--<li></li>-->
+    </ul>
+    <a href="javascript:;" class="arrow arrowLeft"></a>
+    <a href="javascript:;" class="arrow arrowRight"></a>
+</section>
+
+<script src="js/animate.js"></script>
+<script src="js/banner-plugin.js"></script>
+<script>
+    new Banner({
+        ele: '#container',
+        wrapper: 'wrapper',//轮播图盒子的class
+        focus: 'focus',//焦点的class
+        arrowLeft: 'arrowLeft',//左箭头的class
+        arrowRight: 'arrowRight',//右箭头的class
+        slide: 'slide',//每个轮播图的class
+        url: 'json/banner.json',
+        width: 1000,
+        height:300,
+        // isAuto:false,
+        // isArrow: true,
+        // isFocus: true,
+        // isMouse: true,
+        // defaultIndex:0,
+        interval: 2000,
+        speed:1000,
+        direction: 'horizontal',//水平(horizontal)或垂直(vertical)
+        effect:'slide',//普通切换(slide),淡入(fade）
+    });
+
+</script>
+</body>
+</html>

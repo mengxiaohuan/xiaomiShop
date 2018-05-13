@@ -1,0 +1,89 @@
+.container {
+    position: relative;
+    margin: 20px auto;
+    overflow: hidden;
+
+    /*width: 1000px;*/
+    /*height: 300px;*/
+}
+
+.container .wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+
+    /*width: 4000px;!*根据js中获取的数据，动态的设置*!*/
+}
+
+.container .wrapper .slide{
+    height: 100%;
+    overflow: hidden;
+
+    /*float: left;*/
+    /*width: 1000px;*/
+}
+
+.container .wrapper .slide img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.container .focus{
+    height: 12px;
+    padding: 4px;
+    background: rgba(0,0,0,.5);
+    border-radius: 10px;/*让其为盒子高度的一半，这样把长方形的盒子修改为椭圆状*/
+    font-size: 0;
+
+    position: absolute;
+    z-index: 999;
+    bottom: 10px;
+
+    /*基于CSS3，宽度不定时实现水平居中 translateX让当前元素在水平方向位移（-50%：向左移动当前盒子的一半）*/
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container .focus li{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #fff;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+.container .focus .active{
+    background: #E01D20;
+}
+
+.container .arrow{
+    position: absolute;
+    top: 50%;
+    margin-top: -22.5px;
+    width: 28px;
+    height: 45px;
+    background: url("../img/pre.png") no-repeat;
+    opacity: 0.5;
+    display: none;
+    z-index: 999;
+}
+
+.container .arrow:hover{
+    opacity: 1;
+}
+
+.container .arrowLeft{
+    left: 0;
+    background-position: 0 0;
+}
+
+.container .arrowRight{
+    right: 0;
+    background-position: -50px 0;
+}
+
+
