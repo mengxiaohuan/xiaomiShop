@@ -1,0 +1,306 @@
+{
+  "miuiPhone": [
+    {
+      "id": 1,
+      "pic": "../img/mix2s320-220white.png",
+      "title": "小米手机6",
+      "price": 2999
+    },
+    {
+      "id": 2,
+      "pic": "../img/mix2s320-220white.png",
+      "title": "小米手机6",
+      "price": 2999
+    },
+    {
+      "id": 3,
+      "pic": "../img/mix2s320-220white.png",
+      "title": "小米手机6",
+      "price": 2999
+    },
+    {
+      "id": 4,
+      "pic": "../img/mix2s320-220white.png",
+      "title": "小米手机6",
+      "price": 2999
+    },
+    {
+      "id": 5,
+      "pic": "../img/mix2s320-220white.png",
+      "title": "小米手机6",
+      "price": 2999
+    },
+    {
+      "id": 6,
+      "pic": "../img/mix2s320-220white.png",
+      "title": "小米手机6",
+      "price": 2999
+    }
+  ],
+  "redMiuiPhone": [
+    {
+      "id": 1,
+      "pic": "../img/s2-320-220.png",
+      "title": "红米S2",
+      "price": 1882
+    },
+    {
+      "id": 2,
+      "pic": "../img/s2-320-220.png",
+      "title": "红米S2",
+      "price": 1882
+    },
+    {
+      "id": 3,
+      "pic": "../img/s2-320-220.png",
+      "title": "红米S2",
+      "price": 1882
+    },
+    {
+      "id": 4,
+      "pic": "../img/s2-320-220.png",
+      "title": "红米S2",
+      "price": 1882
+    },
+    {
+      "id": 5,
+      "pic": "../img/s2-320-220.png",
+      "title": "红米S2",
+      "price": 1882
+    },
+    {
+      "id": 6,
+      "pic": "../img/s2-320-220.png",
+      "title": "红米S2",
+      "price": 1882
+    }
+  ],
+  "television": [
+    {
+      "id": 1,
+      "pic": "../img/320_22043a4qingchun.png",
+      "title": "小米电视4A",
+      "price": 3222
+    },
+    {
+      "id": 2,
+      "pic": "../img/320_22043a4qingchun.png",
+      "title": "小米电视4A",
+      "price": 3222
+    },
+    {
+      "id": 3,
+      "pic": "../img/320_22043a4qingchun.png",
+      "title": "小米电视4A",
+      "price": 3222
+    },
+    {
+      "id": 4,
+      "pic": "../img/320_22043a4qingchun.png",
+      "title": "小米电视4A",
+      "price": 3222
+    },
+    {
+      "id": 5,
+      "pic": "../img/320_22043a4qingchun.png",
+      "title": "小米电视4A",
+      "price": 3222
+    },
+    {
+      "id": 6,
+      "pic": "../img/320_22043a4qingchun.png",
+      "title": "小米电视4A",
+      "price": 3222
+    }
+  ],
+  "notebook": [
+    {
+      "id": 1,
+      "pic": "../img/bijiben80.jpg",
+      "title": "小米手机6",
+      "price": 4299
+    },
+    {
+      "id": 2,
+      "pic": "../img/bijiben80.jpg",
+      "title": "小米手机6",
+      "price": 4299
+    },
+    {
+      "id": 3,
+      "pic": "../img/bijiben80.jpg",
+      "title": "小米手机6",
+      "price": 4299
+    },
+    {
+      "id": 4,
+      "pic": "../img/bijiben80.jpg",
+      "title": "小米手机6",
+      "price": 4299
+    },
+    {
+      "id": 5,
+      "pic": "../img/bijiben80.jpg",
+      "title": "小米手机6",
+      "price": 4299
+    },
+    {
+      "id": 6,
+      "pic": "../img/bijiben80.jpg",
+      "title": "小米手机6",
+      "price": 4299
+    }
+  ],
+  "box": [
+    {
+      "id": 1,
+      "pic": "../img/hezibai4320_220.png",
+      "title": "小米盒子",
+      "price": 299
+    },
+    {
+      "id": 2,
+      "pic": "../img/hezibai4320_220.png",
+      "title": "小米盒子",
+      "price": 299
+    },
+    {
+      "id": 3,
+      "pic": "../img/hezibai4320_220.png",
+      "title": "小米盒子",
+      "price": 299
+    },
+    {
+      "id": 4,
+      "pic": "../img/hezibai4320_220.png",
+      "title": "小米盒子",
+      "price": 299
+    },
+    {
+      "id": 5,
+      "pic": "../img/hezibai4320_220.png",
+      "title": "小米盒子",
+      "price": 299
+    },
+    {
+      "id": 6,
+      "pic": "../img/hezibai4320_220.png",
+      "title": "小米盒子",
+      "price": 299
+    }
+  ],
+  "new": [
+    {
+      "id": 1,
+      "pic": "../img/yanjingxin.png",
+      "title": "TS 太阳镜",
+      "price": 499
+    },
+    {
+      "id": 2,
+      "pic": "../img/yanjingxin.png",
+      "title": "TS 太阳镜",
+      "price": 499
+    },
+    {
+      "id": 3,
+      "pic": "../img/yanjingxin.png",
+      "title": "TS 太阳镜",
+      "price": 499
+    },
+    {
+      "id": 4,
+      "pic": "../img/yanjingxin.png",
+      "title": "TS 太阳镜",
+      "price": 499
+    },
+    {
+      "id": 5,
+      "pic": "../img/yanjingxin.png",
+      "title": "TS 太阳镜",
+      "price": 499
+    },
+    {
+      "id": 6,
+      "pic": "../img/yanjingxin.png",
+      "title": "TS 太阳镜",
+      "price": 499
+    }
+  ],
+  "router": [
+    {
+      "id": 1,
+      "pic": "../img/xmlyq3.png",
+      "title": "小米路由器",
+      "price": 99
+    },
+    {
+      "id": 2,
+      "pic": "../img/xmlyq3.png",
+      "title": "小米路由器",
+      "price": 99
+    },
+    {
+      "id": 3,
+      "pic": "../img/xmlyq3.png",
+      "title": "小米路由器",
+      "price": 99
+    },
+    {
+      "id": 4,
+      "pic": "../img/xmlyq3.png",
+      "title": "小米路由器",
+      "price": 99
+    },
+    {
+      "id": 5,
+      "pic": "../img/xmlyq3.png",
+      "title": "小米路由器",
+      "price": 99
+    },
+    {
+      "id": 6,
+      "pic": "../img/xmlyq3.png",
+      "title": "小米路由器",
+      "price": 99
+    }
+  ],
+  "hardware": [
+    {
+      "id": 1,
+      "pic": "../img/jsqcs-320-220.png",
+      "title": "小米净水器",
+      "price": 1499
+    },
+    {
+      "id": 2,
+      "pic": "../img/jsqcs-320-220.png",
+      "title": "小米净水器",
+      "price": 1499
+    },
+    {
+      "id": 3,
+      "pic": "../img/jsqcs-320-220.png",
+      "title": "小米净水器",
+      "price": 1499
+    },
+    {
+      "id": 4,
+      "pic": "../img/jsqcs-320-220.png",
+      "title": "小米净水器",
+      "price": 1499
+    },
+    {
+      "id": 5,
+      "pic": "../img/jsqcs-320-220.png",
+      "title": "小米净水器",
+      "price": 1499
+    },
+    {
+      "id": 6,
+      "pic": "../img/jsqcs-320-220.png",
+      "title": "小米净水器",
+      "price": 1499
+    }
+  ]
+}
