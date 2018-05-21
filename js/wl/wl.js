@@ -1,103 +1,3 @@
-/*let wlRender = (function () {
-    "use strict";
-    /!*!// getDOM
-    let getDOM = function (id) {
-        return document.getElementById(id);
-    };
-
-    // addEvent
-    let addEvent = function (id, event, fn) {
-        let el = getDOM(id) || document;
-        /!*写document是为了怕用户传递的ID不存在或者没传 让它不报错 所以后面写了document 就是没传或不存在默认docuemnt*!/
-        if (el.addEventListener) {
-            el.addEventListener(event, fn, false);
-        } else if (el.attachEvent) {
-            el.attachEvent('on' + event, fn);
-        }
-    }
-
-    // getElementLeft
-     let getElementLeft = function (element) {
-         let actualLeft = element.offsetLeft;
-         let current = element.offsetParent;
-
-         while (current !== null) {
-             actualLeft += current.offsetLeft;
-             current = current.offsetParent;
-         }
-         return actualLeft;
-     }
-
-     // getElementTop
-     let getElementLeft = function (element) {
-         let actualTop = element.offsetTop;
-         let current = element.offsetParent;
-
-         while (current !== null) {
-             actualTop += current.offsetTop;
-             current = current.offsetParent;
-         }
-         return actualLeft;
-     }
-
-    // ajaxGet
-    let ajaxGet = function (url, callback) {
-        let _xhr = null;
-        if (window.XMLHttpRequest) {
-            _xhr = new window.XMLHttpRequest();
-        } else if (window.ActiveXObject) {
-            _xhr = new ActiveXObject("Msxml2.XMLHTTP");
-        }
-        _xhr.onreadystatechange = function () {
-            if (_xhr.readyState === 4 && _xhr.status === 200) {
-                callback(JSON.parse(_xhr.responseText));
-            }
-        }
-        _xhr.open('get', url, false);
-        _xhr.send(null);
-    }*!/
-
-    // 搜索框功能
-    let searchIput = function () {
-        // 获取元素
-        let searchIput = document.querySelector('.search-input input[type=search]'),
-            data = null;
-
-        return new Promise((resolve, reject) => {
-            searchIput.addEventListener('keyup', function () {
-                let searchText = this.value;
-
-                let xhr = new XMLHttpRequest;
-                xhr.open('GET', '../json/search.json?q=' + searchText);//=>第三个参数不写或者写TRUE都是异步编程
-                xhr.onreadystatechange = () => {
-                    if (xhr.readyState === 4 && xhr.status === 200) {
-                        data = JSON.parse(xhr.responseText);
-                        resolve(data);
-                    }
-                    if (xhr.status !== 200) {
-                        reject('报错了吧！');
-                    }
-                };
-                xhr.send(null);
-            });
-        });
-
-        // 绑定数据
-        let bindHTML = function (data) {
-            console.log(data);
-        }
-
-    }
-
-    return {
-        init: function () {
-            searchIput();
-            let promise = searchIput();
-            promise.then(bindHTMLL());
-        }
-    }
-})();
-wlRender.init();*/
 ;(function () {
     "use strict";
 
@@ -428,42 +328,34 @@ wlRender.init();*/
             oUl.style.width = oUlWidth + 'px';
         }
 
-        // 切换动画
-        let curAnimate = function () {
-            let oLi = oUl.querySelectorAll('li'),
-                marginRight = parseFloat(getComputedStyle(oLi[0], null).marginRight);
-
-            let begin = parseFloat(getComputedStyle(oUl, null).left),
-                target = parseFloat(getComputedStyle(recommend, null).width),
-                change = target - begin,
-                duration = 800,
-                intervel = 17,
-                time = 0;
-            let timer = setInterval(() => {
-                time += intervel;
-                if (time>=duration){
-                    clearInterval(timer)
-                }
-                oUl.style.left = -(time / duration * change + begin) + 'px';
-            }, 17);
-        }
-
         // 切换功能
         let curCont = function () {
-            arrowWrap.addEventListener('click', function (ev) {
-                ev = ev || window.event;
-                let target = ev.target || ev.srcElement,
-                    targetName = target.tagName;
+            // 获取元素
+            let marginRight = parseFloat(getComputedStyle(oLi[0], null).marginRight), // 右边距
+                offset = parseFloat(getComputedStyle(recommend, null).width), // 1226
+                arrowWrap = document.querySelector('.wl-recommend .title .arrow-wrap'), // 箭头
+                arrowR = arrowWrap.querySelector('.arrow-right'), // 右箭头
+                arrowL = arrowWrap.querySelector('.arrow-left'), // 左箭头
+                sumWidth = (parseFloat(getComputedStyle(oLi[0], null).width) + marginRight) * oLi.length - marginRight,
+                curIndex = 0;
 
-                if (targetName === 'I') {
-                    target = target.parentNode;
-                    targetName = target.targetName;
-                }
+            arrowR.onclick = function () {
+                curIndex++;
+                let pre = this.previousElementSibling;
+                removeClass(pre, 'nomal');
+                (offset + marginRight) * curIndex === sumWidth - offset ? addClass(this, 'nomal') : null;
+                (offset + marginRight) * (curIndex - 1) === sumWidth - offset ? curIndex = curIndex - 1 : null;
+                oUl.style.left = -(offset + marginRight) * curIndex + 'px';
+            }
 
-                if (target.className === 'arrow-right') {
-                    curAnimate()
-                }
-            })
+            arrowL.onclick = function () {
+                curIndex--;
+                let next = this.nextElementSibling;
+                removeClass(next, 'nomal');
+                parseFloat(getComputedStyle(oUl, null).left) > -(offset + marginRight) ? curIndex = 0 : null;
+                curIndex === 0 ? addClass(this, 'nomal') : null;
+                oUl.style.left = -(offset + marginRight) * curIndex + 'px';
+            }
         }
 
         return {
@@ -471,11 +363,71 @@ wlRender.init();*/
                 let promise = queryData();
                 promise.then(bindHTML).then(() => {
                     curCont();
-                    curAnimate()
                 });
             }
         }
     })();
     forRecommend.init();
+
+    // 热评产品
+    let hotProduct = (function () {
+        // 获取元素
+        let contBox = document.querySelector('.hot-product'),
+            oLi = contBox.querySelectorAll('li'),
+            data = null;
+
+        // 获取数据
+        let queryData = function () {
+            return new Promise((resolve, reject) => {
+                let xhr = new XMLHttpRequest;
+                xhr.open('get', '../json/hotProduct.json');
+                xhr.onreadystatechange = () => {
+                    if (xhr.readyState === 4 && xhr.status === 200) {
+                        data = JSON.parse(xhr.responseText);
+                        resolve(data);
+                    }
+                    if (xhr.status !== 200) {
+                        reject('数据请求失败');
+                    }
+                };
+                xhr.send(null);
+            });
+        };
+
+        // 绑定数据
+        let bindHTML = function (data) {
+            let str = ``;
+            for (let i = 0; i < data.length; i++) {
+                let item = data[i],
+                    {id, pic, title, brief, price, comment} = item;
+
+                str += `<li>
+                    <div>
+                        <img src="${pic}"/>
+                    </div>
+                    <div class="li-wrap">
+                        <p class="comment">${brief}</p>
+                        <p class="comment-from">来自于 ${comment} 的评价</p>
+                        <div class="product-name">
+                            ${title}
+                            <span class="line">|</span>
+                            <span class="price"> ${price}元</span>
+                        </div>
+                    </div>
+                </li>`;
+
+            }
+
+            contBox.innerHTML = str;
+        }
+
+        return {
+            init: function () {
+                let promise = queryData();
+                promise.then(bindHTML)
+            }
+        };
+    })();
+    hotProduct.init();
 
 })();
