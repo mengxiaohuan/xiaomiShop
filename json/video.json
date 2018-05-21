@@ -1,0 +1,54 @@
+{
+  "video": [
+    {
+      "id": 1,
+      "pic": "../img/video1.jpg",
+      "title": "品质之魂 存于匠心",
+      "intro": "红米手机品质的工程师访谈"
+    },
+    {
+      "id": 2,
+      "pic": "../img/video2.jpg",
+      "title": "红米手机工艺视频",
+      "intro": "红米5 / 红米5 Plus 高颜值机身"
+    },
+    {
+      "id": 3,
+      "pic": "../img/video3.jpg",
+      "title": "雷军与斯塔克打造全面屏2.0",
+      "intro": "一场关于小米MIX 2 极致工艺的巅峰对话"
+    },
+    {
+      "id": 4,
+      "pic": "../img/video4.jpg",
+      "title": "MIUI 9 理念视频",
+      "intro": "快如闪电，前所未有的流畅"
+    }
+  ],
+  "videoPopup": [
+    {
+      "id": 1,
+      "pic": "../img/video1.jpg",
+      "title": "品质之魂 存于匠心",
+      "video": "https://v.mifile.cn/b2c-mimall-media/bba7529de8957c041624bf0b0fb4458f.mp4"
+    },
+    {
+      "id": 2,
+      "pic": "../img/video2.jpg",
+      "title": "红米手机工艺视频",
+      "video": "https://v.mifile.cn/b2c-mimall-media/643918d12d181ab65634cbd4ecd0cf1d.mp4"
+    },
+    {
+      "id": 3,
+      "pic": "../img/video3.jpg",
+      "title": "雷军与斯塔克打造全面屏2.0",
+      "video": "https://v.mifile.cn/b2c-mimall-media/9e43087a3ac5525a33982a2da2ba2cff.mp4"
+    },
+    {
+      "id": 4,
+      "pic": "../img/video4.jpg",
+      "title": "MIUI 9 理念视频",
+      "video": "https://v.mifile.cn/b2c-mimall-media/079803c78170eaf692d936eba3978cc1.mp4"
+    }
+  ]
+}
