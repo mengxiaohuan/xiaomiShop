@@ -1,0 +1,339 @@
+@bg-col: #fe6700;
+
+.lmh {
+
+  .titleBox {
+    width: 100%;
+    height: 43px;
+    padding-top: 15px;
+
+    .more {
+      display: inline;
+      float: right;
+
+      span, i {
+        transition: all .4s;
+      }
+
+      i {
+        width: 12px;
+        height: 12px;
+        line-height: 12px;
+        color: #fff;
+        background: #b0b0b0;
+        border-radius: 50%;
+        padding: 4px;
+        margin-left: 8px;
+        vertical-align: 1px;
+        font-size: 12px;
+      }
+
+      .active {
+        color: @bg-col;
+        border-bottom: 2px solid @bg-col;
+      }
+
+    }
+
+  }
+
+  .brick-item {
+    position: relative;
+    z-index: 1;
+    float: left;
+    width: 234px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background: #fff;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+
+    &:hover {
+      -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+      -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+      -ms-box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+      -o-box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+      -webkit-transform: translate3d(0, -2px, 0);
+      -moz-transform: translate3d(0, -2px, 0);
+      -ms-transform: translate3d(0, -2px, 0);
+      -o-transform: translate3d(0, -2px, 0);
+      transform: translate3d(0, -2px, 0);
+    }
+
+  }
+
+
+
+  .box-bd {
+    width: 100%;
+
+    .row {
+      margin-left: -14px;
+
+      .left {
+        width: 234px;
+        float: left;
+
+        img {
+          width: 234px;
+        }
+
+      }
+
+      .right {
+        float: left;
+        margin-left: 14px;
+
+        ul {
+          width: 992px;
+
+          .brick-item {
+            position: relative;
+            width: 234px;
+            padding: 20px 0;
+
+            .flag {
+              width: 64px;
+              height: 20px;
+              background: #e53935;
+              position: absolute;
+              top: 0;
+              left: 50%;
+              margin-left: -32px;
+              line-height: 20px;
+              text-align: center;
+              color: #fff;
+            }
+
+            img {
+              display: block;
+              width: 160px;
+              height: 160px;
+              margin: 0 auto 16px;
+            }
+
+            .title {
+              margin: 0 10px 2px;
+              font-weight: 400;
+              text-align: center;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              overflow: hidden;
+            }
+
+            .desc {
+              margin: 0 10px 10px;
+              height: 18px;
+              text-align: center;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              overflow: hidden;
+              color: #b0b0b0;
+            }
+
+            .price {
+              margin: 0 10px 14px;
+              text-align: center;
+              color: @bg-col;
+
+              .del {
+                color: #b0b0b0;
+                text-decoration: line-through;
+              }
+            }
+
+          }
+        }
+
+      }
+
+    }
+  }
+
+  //手机
+  .phone {
+    width: 100%;
+
+    .titleBox {
+
+      .more {
+
+        &:hover {
+          span {
+            color: @bg-col;
+          }
+          i {
+            background: @bg-col;
+          }
+        }
+
+      }
+
+    }
+
+  }
+
+  .advert {
+    width: 100%;
+    height: 120px;
+    margin: 28px 0 22px;
+
+    img {
+      width: 100%;
+    }
+
+  }
+
+  //家电
+  .homeelec, .smart {
+    width: 100%;
+
+    .titleBox {
+
+      .more {
+
+        li {
+          float: left;
+          display: inline-block;
+          margin: 0 0 0 30px;
+
+          span:hover {
+            color: @bg-col;
+          }
+
+        }
+
+      }
+
+    }
+
+    .box-bd {
+
+      .left {
+
+        .brick-item {
+          height: 303px;
+        }
+
+      }
+
+      .right {
+
+        .dataBox {
+          overflow: hidden;
+          display: none;
+
+          .brick-item-m {
+            overflow: hidden;
+
+            .review-wrapper {
+              position: absolute;
+              bottom: -76px;
+              left: 0;
+              width: 100%;
+              height: 76px;
+              z-index: 3;
+              overflow: hidden;
+              _zoom: 1;
+              font-size: 12px;
+              background: #ff6700;
+              opacity: 0;
+              filter: alpha(opacity=0);
+              -webkit-transition: all .2s linear;
+              transition: all .2s linear;
+
+              a {
+                display: block;
+                padding: 8px 30px;
+                outline: 0;
+
+                .review {
+                  margin-bottom: 5px;
+                  color: #fff;
+                }
+
+                .author {
+                  color: #fff;
+                  color: rgba(255, 255, 255, 0.6);
+                  text-overflow: ellipsis;
+                  white-space: nowrap;
+                  overflow: hidden;
+                  _zoom: 1;
+                }
+
+              }
+
+            }
+
+            &:hover {
+
+              .review-wrapper {
+                bottom: 0;
+                opacity: 1;
+                filter: alpha(opacity=100);
+              }
+            }
+
+          }
+
+          .brick-item-s {
+            position: relative;
+            height: 104px;
+
+            .title {
+              position: absolute;
+              top: 35px;
+              width: 50%;
+              display: inline-block;
+
+              span {
+                display: block;
+                font-weight: 400;
+                margin-bottom: 10px;
+
+                &.f18 {
+                  font-size: 18px;
+                }
+              }
+
+            }
+
+            a {
+              display: inline-block;
+              position: absolute;
+              left: 120px;
+
+              img {
+                width: 80px;
+                height: 80px;
+              }
+
+              i {
+                display: block;
+                width: 50px;
+                height: 50px;
+                font-size: 50px;
+                color: @bg-col;
+              }
+
+            }
+          }
+
+        }
+        .active{
+          display: block;
+        }
+      }
+
+
+    }
+
+  }
+}
+
+
+

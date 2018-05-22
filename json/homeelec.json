@@ -1,0 +1,183 @@
+[{
+		"imgUrl": "../img/xmad_15232552838083_SWVqL.jpg"
+	}, {
+		"imgUrl": "../img/xmad_15123939053142_dFlAw.jpg"
+	}, {
+		"hot": [{
+			"imgUrl": "../img/pms_1519959193.42473450!220x220.jpg",
+			"title": "小米电视4A 40英寸",
+			"desc": "FHD全高清屏 / 人工智能语音系统 ",
+			"newprice": "1399",
+			"oldprice": "1599",
+			"flag":"减200元",
+			"review":"新家还在搞卫生，没装上去，感觉买小了，只能放卧室去。...",
+            "author":"来自于 Amy 的评价"
+		}, {
+			"imgUrl": "../img/pms_1516011154.79573723!220x220.jpg",
+			"title": "小米电视4A 50英寸",
+			"desc": "人工智能语音系统 / 蓝牙语音遥控器",
+			"newprice": "1999",
+			"oldprice": "2199"
+		}, {
+			"imgUrl": "../img/pms_1496997930.13622399!220x220.jpg",
+			"title": "13.3'小米笔记本Air i5 8G 256G MX150 银色",
+			"desc": "全金属超薄机身搭配独显",
+			"newprice": "5199"
+		}, {
+			"imgUrl": "../img/pms_1505897517.20426731!220x220.jpg",
+			"title": "15.6'小米笔记本Pro i7 16G MX150 深空灰",
+			"desc": "性能更强悍的专业笔记本",
+			"newprice": "6999"
+		}, {
+			"imgUrl": "../img/xmad_14972549116226_tZpod.png",
+			"title": "米家空气净化器Pro",
+			"desc": "OLED 显示屏幕 / 激光颗粒物传感器",
+			"newprice": "1499"
+		}, {
+			"imgUrl": "../img/pms_1504498936.11861982!220x220.jpg",
+			"title": "米家电水壶",
+			"desc": "一杯水，是一家人的安心",
+			"newprice": "99"
+		}, {
+			"imgUrl": "../img/pms_1510020567.64467830!220x220.jpg",
+			"title": "小米米家空气净化器 2S",
+			"desc": "OLED显示屏 / 激光颗粒物传感器",
+			"newprice": "899"
+		}, {
+			"imgUrl": "../img/pms_1468806372.46368911!220x220.jpg",
+			"title": "小白摄像机",
+			"newprice": "399"
+		}]
+	}, {
+		"movies": [{
+			"imgUrl": "../img/pms_1503909300.25797209!220x220.png",
+			"title": "小米电视4A 55英寸",
+			"desc": "4K高清HDR / 真四核64位高性能处理器",
+			"newprice": "2599",
+			"oldprice": "2799"
+		}, {
+			"imgUrl": "../img/pms_1510111588.69169839!220x220.jpg",
+			"title": "小米电视4 55英寸",
+			"desc": "4.9mm 极超薄机身 / 2GB+8GB 大内存空间",
+			"newprice": "3999"
+		}, {
+			"imgUrl": "../img/pms_1500287084.72131750!220x220.jpg",
+			"title": "小米电视4A 32英寸",
+			"desc": "64位四核处理器 / 1GB+4GB大内存 ",
+			"newprice": "899",
+			"oldprice": "999"
+		}, {
+			"imgUrl": "../img/pms_1490077569.08131612!220x220.png",
+			"title": "小米电视4A 65英寸",
+			"desc": "4K超高清屏 / 真四核64位高性能处理器",
+			"newprice": "3999",
+			"oldprice": "4499"
+		}, {
+			"imgUrl": "../img/pms_1524883847.49276938!220x220.jpg",
+			"title": "小米电视4A 43英寸青春版",
+			"desc": "全高清屏 / 人工智能语音 / 大内存",
+			"newprice": "1599",
+			"oldprice": "1699"
+		}, {
+			"imgUrl": "../img/pms_1509694019.50094281!220x220.png",
+			"title": "小米电视4C 43英寸",
+			"desc": "人工智能 / 全高清屏幕 / 大内存",
+			"newprice": "1699",
+			"oldprice": "1799"
+		}, {
+			"imgUrl": "../img/pms_1499072633.96298268!220x220.jpg",
+			"title": "小米盒子3 增强版",
+			"desc": "高端 4K 网络机顶盒",
+			"newprice": "399",
+			"oldprice": "449"
+		}, {
+			"imgUrl": "../img/pms_1479190789.95594557!220x220.jpg",
+			"title": "小米盒子3s",
+			"newprice": "299"
+		}]
+	}, {
+        "computer": [{
+            "imgUrl": "../img/pms_1514387870.88251945!220x220.jpg",
+            "title": "12.5'小米笔记本Air M3 4G 128G 银色",
+            "desc": "",
+            "newprice": "3599"
+        }, {
+            "imgUrl": "../img/pms_1496997930.13622399!220x220.jpg",
+            "title": "小米笔记本Air13.3英寸",
+            "desc": "第7代CPU 2G独显 指纹解锁",
+            "newprice": "4999",
+            "oldprice": "5199"
+        }, {
+            "imgUrl": "../img/pms_1469583247.6157588!220x220.jpg",
+            "title": "小米笔记本Air 13.3英寸",
+            "desc": "Intel 酷睿i5 处理器 独立显卡",
+            "newprice": "4999"
+        }, {
+            "imgUrl": "../img/pms_1490604807.82792204!220x220.jpg",
+            "title": "小米笔记本Air 12.5英寸",
+            "desc": "更轻更薄，像杂志一样随身携带",
+            "newprice": "3999"
+        }, {
+            "imgUrl": "../img/pms_1490595812.95661863!220x220.png",
+            "title": "小米无线鼠标",
+            "desc": "耐脏亲肤涂层，人体工学设计",
+            "newprice": "69"
+        }, {
+            "imgUrl": "../img/pms_1478248566.62624407!220x220.jpg",
+            "title": "小米便携鼠标",
+            "desc": "轻薄便携，铝合金外壳 +ABS 材质",
+            "newprice": "99"
+        }, {
+            "imgUrl": "../img/pms_1490702347.3628109!220x220.png",
+            "title": "悦米机械键盘",
+            "desc": "铝合金机身，TTC红轴，87 键",
+            "newprice": "289"
+        }, {
+            "imgUrl": "../img/pms_1469523170.25518983!220x220.jpg",
+            "title": "多功能转接器",
+            "newprice": "149"
+        }]
+    }, {
+        "furniture": [{
+            "imgUrl": "../img/pms_1465366178.11466342!220x220.jpg",
+            "title": "米家恒温电水壶",
+            "desc": "水温智能控制，304 不锈钢内胆",
+            "newprice": "199"
+        }, {
+            "imgUrl": "../img/pms_1506417289.23728408!220x220.jpg",
+            "title": "小米随身手电筒",
+            "desc": "11 挡调光，随心而亮",
+            "newprice": "79"
+        }, {
+            "imgUrl": "../img/pms_1472609961.95298675!220x220.jpg",
+            "title": "米家扫地机器人",
+            "desc": "智能路径规划，扫得干净扫得快",
+            "newprice": "1699"
+        }, {
+            "imgUrl": "../img/T1zBYgBCWv1RXrhCrK!220x220.jpg",
+            "title": "小米空气净化器2",
+            "desc": "10分钟，房间空气焕然一新",
+            "newprice": "699"
+        }, {
+            "imgUrl": "../img/T1OVC_ByY_1RXrhCrK!220x220.jpg",
+            "title": "米家压力IH电饭煲",
+            "desc": "智能烹饪，灰铸铁粉体涂层内胆",
+            "newprice": "999"
+        }, {
+            "imgUrl": "../img/pms_1496647119.81414190!220x220.jpg",
+            "title": "飞利浦智睿球泡灯",
+            "desc": "自由调节亮度，Wi-Fi随时操控",
+            "newprice": "45",
+            "oldprice": "49"
+        }, {
+            "imgUrl": "../img/pms_1495520422.36514041!220x220.jpg",
+            "title": "米家 LED 智能台灯",
+            "desc": "无可视频闪，四种场景优化调光",
+            "newprice": "159",
+            "oldprice": "169"
+        }, {
+            "imgUrl": "../img/pms_1490756071.3088664!220x220.png",
+            "title": "Yeelight LED 吸顶灯",
+            "newprice": "359"
+        }]
+    }]

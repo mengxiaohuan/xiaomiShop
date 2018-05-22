@@ -15,7 +15,7 @@
             //=>参数初始化（初始化配置项）：把处理好的参数配置项尽可能的挂载到当前类的实例上，成为实例的私有属性，这样不仅在公共或者私有方法中直接可以获取使用，而且也保证每一个实例之间这些属性是不冲突的
             let _default = {
                 lastIndex: 0,
-                eventType: 'mouseover',
+                eventType: 'mouseenter',
                 customPageClass: 'option',
                 customContentClass: 'con',
                 changeEnd: null
@@ -33,14 +33,14 @@
 
             //=>获取需要操作的元素，把获取的元素也挂载到实例上
             this.container = container;
-            let childs = [...container.children],
-                option = null;
-            option = childs.find(item => this.hasClass(item, this.customPageClass));
+
+            let option = container.querySelector(`.${this.customPageClass}`);
             this.optionList = option ? [...option.children] : [];
-            this.conList = childs.filter(item => this.hasClass(item, this.customContentClass));
+            this.conList = container.querySelectorAll(`.${this.customContentClass}`);
 
             //=>让个LAST-INDEX对应项有选中样式，其余项没有选中样式
             this.optionList.forEach((item, index) => {
+
                 if (index === this.lastIndex) {
                     this.addClass(this.optionList[index], 'active');
                     this.addClass(this.conList[index], 'active');
@@ -56,12 +56,15 @@
 
         /*==把公共方法挂载到类的原型上==*/
         hasClass(ele, str) {
+
+            if(typeof ele == 'undefined' || typeof ele.className == 'undefined') return false;
+
             return ele.className.trim().split(/ +/).indexOf(str) >= 0;
         }
 
         addClass(ele, str) {
             //=>hasClass()不能直接调取，需要基于实例调取使用(或者直接基于类来调取使用也可以 TabPlugin.prototype.hasClass())
-            if (this.hasClass(ele, str)) return;
+            if (typeof ele == 'undefined' || this.hasClass(ele, str)) return;
             ele.className += ` ${str}`;
         }
 
@@ -74,9 +77,12 @@
             this.optionList.forEach((item, index) => {
                 //=>THIS:实例
                 let _this = this;
+
                 item[`on${this.eventType}`] = function anonymous() {
+
                     //=>THIS:当前操作的LI
                     if (_this.lastIndex === index) return;
+
                     _this.addClass(this, 'active');
                     _this.removeClass(_this.optionList[_this.lastIndex], 'active');
 
