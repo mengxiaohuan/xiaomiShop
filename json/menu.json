@@ -1,10 +1,816 @@
-手机 电话卡 [{'imgUrl': 'mix2s80-80white.png', 'name': '小米MIX 2S'}, {'imgUrl': '80808080808080.jpg', 'name': '小米6X'}, {'imgUrl': 'heisha-80.png', 'name': '黑鲨游戏手机'}, {'imgUrl': 'note3-80-2.png', 'name': '小米Note 3'}, {'imgUrl': 'mix2-80.png', 'name': '小米MIX 2'}, {'imgUrl': 'xm6_80.png', 'name': '小米6'}, {'imgUrl': '80pc-5x.png', 'name': '小米5X'}, {'imgUrl': 'max2_80.jpg', 'name': '小米Max 2'}, {'imgUrl': 'note5-80-80.png', 'name': '红米Note 5'}, {'imgUrl': 's2-80-80.png', 'name': '红米S2'}, {'imgUrl': 'redmi5P-80-80.png', 'name': '红米5 Plus'}, {'imgUrl': 'redmi5-80-80.png', 'name': '红米5'}, {'imgUrl': '80-5a.png', 'name': '红米5A'}, {'imgUrl': '80.jpg', 'name': '移动4G+专区'}, {'imgUrl': 'compare.jpg', 'name': '对比手机'}, {'imgUrl': 'mifenka-1.jpg', 'name': '米粉卡 日租卡'}, {'imgUrl': 'mimobile.jpg', 'name': '小米移动 电话卡'}, {'imgUrl': 'weixiu80-80.png', 'name': '手机上门维修'}]
-电视 盒子 [{'imgUrl': 'zuodaohang.jpg', 'name': '小米电视4A 32英寸'}, {'imgUrl': '4a4080.80.jpg', 'name': '小米电视4A 40英寸'}, {'imgUrl': '4A43.jpg', 'name': '小米电视4A 43英寸'}, {'imgUrl': '43qingchunban80_80.jpg', 'name': '小米电视4A 43英寸青春版'}, {'imgUrl': 'xp80_49.jpg', 'name': '小米电视4A 49英寸'}, {'imgUrl': '4A5080.jpg', 'name': '小米电视4A 50英寸'}, {'imgUrl': 'xp80_55.jpg', 'name': '小米电视4A 55英寸'}, {'imgUrl': 'xp80_65.jpg', 'name': '小米电视4A 65英寸'}, {'imgUrl': 'xin55.png', 'name': '小米电视4C 43英寸'}, {'imgUrl': '4C5080.80.jpg', 'name': '小米电视4C 50英寸'}, {'imgUrl': 'xin43.png', 'name': '小米电视4C 55英寸'}, {'imgUrl': '80_8032tv.jpg', 'name': '小米电视4A 32英寸体育版'}, {'imgUrl': 'tiyu4380_80.jpg', 'name': '小米电视4A 43英寸体育版'}, {'imgUrl': '80_8055tv.jpg', 'name': '小米电视4C 55英寸体育版\xa0'}, {'imgUrl': '80xmds_49.jpg', 'name': '小米电视4 49英寸'}, {'imgUrl': '80xmds_55.jpg', 'name': '小米电视4 55英寸'}, {'imgUrl': '80xmds_65.jpg', 'name': '小米电视4 65英寸'}, {'imgUrl': '4S55-80-80.png', 'name': '小米电视4S 55英寸'}, {'imgUrl': '80_80.jpg', 'name': '小米电视4S 50英寸'}, {'imgUrl': '324S80.80.jpg', 'name': '小米电视4S 32英寸'}, {'imgUrl': 'hezibai480_80.jpg', 'name': '小米盒子4'}, {'imgUrl': 'heihezi4c80_80.jpg', 'name': '小米盒子4c'}, {'imgUrl': 'hezi3zenqiang.jpg', 'name': '小米盒子3 增强版'}, {'imgUrl': 'hezi80-80.jpg', 'name': '小米盒子3c'}]
-笔记本 [{'imgUrl': '80x80youxichuantu.png', 'name': '小米游戏本 15.6"'}, {'imgUrl': 'bijiben80.jpg', 'name': '笔记本Air 12.5"'}, {'imgUrl': 'bijiben80.jpg', 'name': '笔记本Air 13.3" 独显'}, {'imgUrl': 'bijiben80.jpg', 'name': '笔记本Air 13.3" 集显'}, {'imgUrl': '80x80.png', 'name': '笔记本Air 13.3" 四核增强'}, {'imgUrl': 'WechatIMG605.png', 'name': '笔记本Pro 15.6"'}, {'imgUrl': 'bjbcdq80.jpg', 'name': 'USB-C电源适配器'}, {'imgUrl': 'usbzjqggg80.jpg', 'name': 'HDMI转接器'}, {'imgUrl': 'vga.png', 'name': 'VGA 千兆网口转接器'}, {'imgUrl': 'neidanbao80.jpg', 'name': '小米笔记本内胆包'}, {'imgUrl': 'ymjp80.jpg', 'name': '悦米机械键盘'}, {'imgUrl': 'jianpanbashi.jpg', 'name': '悦米机械键盘Pro静音版'}, {'imgUrl': 'shubiao80.jpg', 'name': '小米便携鼠标'}, {'imgUrl': 'wxsb80.png', 'name': '小米无线鼠标'}, {'imgUrl': 'xmsbd80.jpg', 'name': '鼠标垫'}, {'imgUrl': 'USBC80.jpg', 'name': 'DisplayPort转接器'}, {'imgUrl': '6838xiaozhuanjieqi.png', 'name': 'USB至千兆网口转接器'}]
-智能 家电 [{'imgUrl': 'jinghuaqi2-80.jpg', 'name': '空气净化器2'}, {'imgUrl': 'jinghuaqiPro-80.jpg', 'name': '空气净化器Pro'}, {'imgUrl': 'jinghuaqi2S-80.jpg', 'name': '净化器2S'}, {'imgUrl': 'jinghuaqiMAX-80.jpg', 'name': '净化器MAX'}, {'imgUrl': 'czjhq80.jpg', 'name': '车载空气净化器'}, {'imgUrl': 'kongjinlvxin-80.jpg', 'name': '空净滤芯'}, {'imgUrl': 'jingshuicxs-80.jpg', 'name': '净水器(厨下式)'}, {'imgUrl': 'jingshuiqiandlvxin-80.jpg', 'name': '净水器滤芯'}, {'imgUrl': 'shuihu80.jpg', 'name': '米家恒温电水壶'}, {'imgUrl': 'dianshuihu-80.jpg', 'name': '米家电水壶'}, {'imgUrl': 'jianceyi-80.jpg', 'name': 'PM2.5检测仪'}, {'imgUrl': 'jiancebi-80.jpg', 'name': '水质TDS检测笔'}, {'imgUrl': 'jiqiren.jpg', 'name': '扫地机器人'}, {'imgUrl': 'saodipeijian-80.jpg', 'name': '扫地机附件'}, {'imgUrl': 'yalidianfanbao-80.jpg', 'name': '米家电饭煲'}, {'imgUrl': 'diancilu-80.jpg', 'name': '米家电磁炉'}, {'imgUrl': 'tangguo-80.jpg', 'name': '知吾煮厨具'}, {'imgUrl': 'touyingdianshi-80.jpg', 'name': '激光投影电视'}, {'imgUrl': 'jingshuiqi80haha.jpg', 'name': '小米净水器 1A （厨下式）'}, {'imgUrl': 'tixvdao80.jpg', 'name': '剃须刀'}, {'imgUrl': 'lvxinbashi.png', 'name': '小米净水器滤芯'}]
-健康 家居 [{'imgUrl': 'shouhuan.jpg', 'name': '手环'}, {'imgUrl': 'yundongshoubiao-80.jpg', 'name': '手表'}, {'imgUrl': 'tizhicheng-80.jpg', 'name': '小米体脂秤'}, {'imgUrl': 'scale.jpg', 'name': '小米体重秤'}, {'imgUrl': 'yashua80.jpg', 'name': '米家电动牙刷'}, {'imgUrl': 'zhinengjiatingtaozhuang-80.jpg', 'name': '智能家庭组合'}, {'imgUrl': 'zhinengchazuo-80.jpg', 'name': '米家智能插座'}, {'imgUrl': 'flashlight-80.jpg', 'name': '手电筒'}, {'imgUrl': 'LEDtaideng-80.jpg', 'name': '米家LED智能台灯'}, {'imgUrl': 'flptaideng-80.jpg', 'name': '米家飞利浦台灯'}, {'imgUrl': 'nightlight-80.jpg', 'name': '米家感应夜灯'}, {'imgUrl': 'mj-bedsidelamp-80.jpg', 'name': '床头灯'}, {'imgUrl': 'xidingdeng-80.jpg', 'name': '吸顶灯'}, {'imgUrl': 'colorfullamp-80.jpg', 'name': '智能灯泡'}, {'imgUrl': 'micamera-80.jpg', 'name': '米家小白智能摄像机'}, {'imgUrl': 'camera-head-80.jpg', 'name': '米家智能摄像机云台版'}, {'imgUrl': 'xiaofang-80.jpg', 'name': '小方智能摄像机'}, {'imgUrl': 'dafang-80.jpg', 'name': '大方智能摄像机'}, {'imgUrl': 'mj-camera-1080p80.jpg', 'name': '米家智能摄像机1080P'}, {'imgUrl': 'smartcamera-v80.jpg', 'name': '小白智能摄像机大众版'}, {'imgUrl': 'fyhnhn.jpg', 'name': '米家蓝牙温湿度计'}]
-出行 儿童 [{'imgUrl': 'scooter-80.jpg', 'name': '九号平衡车'}, {'imgUrl': 'phcplus80.jpg', 'name': '九号平衡车Plus'}, {'imgUrl': 'scooter2-80.jpg', 'name': '米家电动滑板车'}, {'imgUrl': 'zxc80-80.jpg', 'name': '电助力折叠自行车'}, {'imgUrl': 'jly80.jpg', 'name': '行车记录仪'}, {'imgUrl': 'mirror-80.jpg', 'name': '70迈智能后视镜'}, {'imgUrl': 'XIAOFEIJIBASHI.jpg', 'name': '米兔遥控小飞机'}, {'imgUrl': 'shoubiao280.jpg', 'name': '米兔儿童手表2'}, {'imgUrl': 'toyblock2-80.jpg', 'name': '米兔智能积木'}, {'imgUrl': 'mitugushi-80.jpg', 'name': '米兔故事机'}, {'imgUrl': 'toyblock-80.jpg', 'name': '积木机器人'}, {'imgUrl': 'locatephone-80.jpg', 'name': '米兔定位电话'}, {'imgUrl': 'jimumumu.jpg', 'name': '米兔轨道积木'}, {'imgUrl': 'wurenji80.jpg', 'name': '小米无人机'}, {'imgUrl': 'djj80.jpg', 'name': '米家对讲机'}, {'imgUrl': 'camera-small-80.jpg', 'name': '米家小相机'}, {'imgUrl': 'mj-panorama-camera-80.jpg', 'name': '米家全景相机'}, {'imgUrl': 'yi-camera-m1-80.jpg', 'name': '小蚁微单相机'}, {'imgUrl': 'houshijing80.jpg', 'name': '小米米家智能后视镜'}, {'imgUrl': 'bashixiaoaimini.jpg', 'name': '小米小爱音箱mini'}]
-路由器 手机配件 [{'imgUrl': 'miwifi3-80.jpg', 'name': '小米路由器3'}, {'imgUrl': 'miwifi3c-80.jpg', 'name': '小米路由器3C'}, {'imgUrl': 'miwifi3g-80.jpg', 'name': '小米路由器3G'}, {'imgUrl': 'miwifi3a-80.jpg', 'name': '小米路由器3A'}, {'imgUrl': 'luyouqiPro-80.jpg', 'name': '小米路由器Pro'}, {'imgUrl': 'luyouqiHD-80.jpg', 'name': '小米路由器HD'}, {'imgUrl': 'WiFifangdaqi2-80.jpg', 'name': 'WiFi放大器2'}, {'imgUrl': 'WiFifangdaqiPro-80.jpg', 'name': 'WiFi放大器Pro'}, {'imgUrl': 'plc-80.jpg', 'name': 'WiFi电力猫'}, {'imgUrl': 'VRPLAY2.png', 'name': '小米VR眼镜'}, {'imgUrl': 'miniwifi-80.jpg', 'name': '随身WIFI'}, {'imgUrl': 'qianzhaowangxian-80.jpg', 'name': '千兆网线'}, {'imgUrl': 'baohu.jpg', 'name': '手机保护套'}, {'imgUrl': 'tiemo.jpg', 'name': '手机贴膜'}, {'imgUrl': 'zipaigan80.jpg', 'name': '自拍杆'}, {'imgUrl': 'shujuxian-80.jpg', 'name': '数据线'}, {'imgUrl': 'cunchu80x80.jpg', 'name': '存储卡'}]
-移动电源 插线板 [{'imgUrl': 'dianyuan2.100080.jpg', 'name': '新小米移动电源2'}, {'imgUrl': 'dianyuan2c-80.jpg', 'name': '小米移动电源2C'}, {'imgUrl': 'dianyuan2-5qian-80.jpg', 'name': '小米移动电源2'}, {'imgUrl': 'shoudiantong8080.jpg', 'name': '小米随身手电筒'}, {'imgUrl': 'baohutao80.jpg', 'name': '移动电源保护套'}, {'imgUrl': '7Battery1.jpg', 'name': '彩虹电池7号'}, {'imgUrl': '5Battery1.jpg', 'name': '彩虹5号电池（10粒装）'}, {'imgUrl': 'chongdianqi-80.jpg', 'name': 'USB充电器'}, {'imgUrl': 'chezaichongdianqi80.jpg', 'name': '小米车载充电器'}, {'imgUrl': 'fengshan80.jpg', 'name': '米家随身风扇'}, {'imgUrl': 'chaxianbanusb-80.jpg', 'name': '小米插线板USB版'}, {'imgUrl': 'chaxianban6wei-80.jpg', 'name': '米家插线板6位 基础版'}, {'imgUrl': 'chaxianban3wei-80.jpg', 'name': '米家插线板3位长线版'}, {'imgUrl': 'c1xb343.jpg', 'name': '米家智能插线板'}]
-耳机 音箱 [{'imgUrl': '80xiangquan.jpg', 'name': '小米蓝牙项圈耳机'}, {'imgUrl': 'xiaomiyouxierjiyi.jpg', 'name': '小米游戏耳机'}, {'imgUrl': 'erji80.jpg', 'name': '小米双单元半入耳式耳机'}, {'imgUrl': 'qtpro80.jpg', 'name': '小米圈铁耳机 Pro'}, {'imgUrl': 'quantie.jpg', 'name': '小米圈铁耳机'}, {'imgUrl': 'huosai1.jpg', 'name': '小米活塞耳机 清新版'}, {'imgUrl': 'xmjzej80.jpg', 'name': '小米降噪耳机'}, {'imgUrl': 'jiaonang80.jpg', 'name': '小米胶囊耳机'}, {'imgUrl': 'toudai80.jpg', 'name': '小米头戴式耳机'}, {'imgUrl': 'yundong80.jpg', 'name': '小米运动蓝牙耳机'}, {'imgUrl': '3-80.jpg', 'name': '小米运动蓝牙耳机mini'}, {'imgUrl': 'bluetoothheadset.jpg', 'name': '小米蓝牙耳机'}, {'imgUrl': '20170707135935.jpg', 'name': '小米蓝牙音频接收器'}, {'imgUrl': 'tdsqs80.jpg', 'name': '小米头戴式耳机 轻松版'}, {'imgUrl': 'pinpai80.jpg', 'name': '品牌耳机'}, {'imgUrl': '80x80.jpg', 'name': '小米AI音箱'}, {'imgUrl': 'xiaogangpao2-hei-80.jpg', 'name': '小米小钢炮蓝牙音箱2'}, {'imgUrl': 'fhzlyyx80.jpg', 'name': '小米方盒子蓝牙音箱2'}, {'imgUrl': 'pocketaudio.png', 'name': '小米蓝牙音箱'}, {'imgUrl': 'suishen-80.jpg', 'name': '小米随身蓝牙音箱'}, {'imgUrl': 'mituyinx80.jpg', 'name': '小米米兔音箱'}, {'imgUrl': 'yinxiangmini80.jpg', 'name': '小爱音箱mini'}, {'imgUrl': '80.....80.jpg', 'name': '小米电视音响'}]
-生活 米兔 [{'imgUrl': 'lvxingxiang.jpg', 'name': '旅行箱'}, {'imgUrl': 'xiangbao-80.jpg', 'name': '双肩包'}, {'imgUrl': 'ertongshubao.80.jpg', 'name': '儿童书包'}, {'imgUrl': 'xiongbao-80.jpg', 'name': '胸包'}, {'imgUrl': 'qianbao-80.jpg', 'name': '钱包'}, {'imgUrl': 'shounabao-80.jpg', 'name': '收纳包'}, {'imgUrl': 'txv80.jpg', 'name': '服饰'}, {'imgUrl': 'ydx80.jpg', 'name': '运动鞋'}, {'imgUrl': 'weibo-80.jpg', 'name': '围巾'}, {'imgUrl': 'tyj80.jpg', 'name': '眼镜'}, {'imgUrl': 'qianzibi-80.jpg', 'name': '米家签字笔'}, {'imgUrl': 'duoyongbijiben-80.jpg', 'name': '文具'}, {'imgUrl': 'baoxianhe.80.jpg', 'name': '玻璃保鲜盒'}, {'imgUrl': 'san.jpg', 'name': '自动折叠伞'}, {'imgUrl': 'luosidao-80.jpg', 'name': '米家 wiha 精修螺丝刀套装'}, {'imgUrl': 'mitu-80.jpg', 'name': '米兔玩偶'}, {'imgUrl': 'cilijimu.80.jpg', 'name': '米兔磁力积木'}, {'imgUrl': 'yashua80.jpg', 'name': '牙刷'}, {'imgUrl': 'shafa.80.png', 'name': '沙发'}, {'imgUrl': 'zhent.ou80.png', 'name': '枕头'}, {'imgUrl': 'beizi8.0..png', 'name': '被子'}, {'imgUrl': 'chuangdian-80-80.jpg', 'name': '床垫'}, {'imgUrl': 'sijiantao-80-80.jpg', 'name': '针织件套'}, {'imgUrl': 'jinmitu.jpg', 'name': '饰品'}]
+手机 电话卡 [
+  {
+    'imgUrl': 'mix2s80-80white.png',
+    'name': '小米MIX 2S'
+  },
+  {
+    'imgUrl': '80808080808080.jpg',
+    'name': '小米6X'
+  },
+  {
+    'imgUrl': 'heisha-80.png',
+    'name': '黑鲨游戏手机'
+  },
+  {
+    'imgUrl': 'note3-80-2.png',
+    'name': '小米Note 3'
+  },
+  {
+    'imgUrl': 'mix2-80.png',
+    'name': '小米MIX 2'
+  },
+  {
+    'imgUrl': 'xm6_80.png',
+    'name': '小米6'
+  },
+  {
+    'imgUrl': '80pc-5x.png',
+    'name': '小米5X'
+  },
+  {
+    'imgUrl': 'max2_80.jpg',
+    'name': '小米Max 2'
+  },
+  {
+    'imgUrl': 'note5-80-80.png',
+    'name': '红米Note 5'
+  },
+  {
+    'imgUrl': 's2-80-80.png',
+    'name': '红米S2'
+  },
+  {
+    'imgUrl': 'redmi5P-80-80.png',
+    'name': '红米5 Plus'
+  },
+  {
+    'imgUrl': 'redmi5-80-80.png',
+    'name': '红米5'
+  },
+  {
+    'imgUrl': '80-5a.png',
+    'name': '红米5A'
+  },
+  {
+    'imgUrl': '80.jpg',
+    'name': '移动4G+专区'
+  },
+  {
+    'imgUrl': 'compare.jpg',
+    'name': '对比手机'
+  },
+  {
+    'imgUrl': 'mifenka-1.jpg',
+    'name': '米粉卡 日租卡'
+  },
+  {
+    'imgUrl': 'mimobile.jpg',
+    'name': '小米移动 电话卡'
+  },
+  {
+    'imgUrl': 'weixiu80-80.png',
+    'name': '手机上门维修'
+  }
+]
+电视 盒子 [
+  {
+    'imgUrl': 'zuodaohang.jpg',
+    'name': '小米电视4A 32英寸'
+  },
+  {
+    'imgUrl': '4a4080.80.jpg',
+    'name': '小米电视4A 40英寸'
+  },
+  {
+    'imgUrl': '4A43.jpg',
+    'name': '小米电视4A 43英寸'
+  },
+  {
+    'imgUrl': '43qingchunban80_80.jpg',
+    'name': '小米电视4A 43英寸青春版'
+  },
+  {
+    'imgUrl': 'xp80_49.jpg',
+    'name': '小米电视4A 49英寸'
+  },
+  {
+    'imgUrl': '4A5080.jpg',
+    'name': '小米电视4A 50英寸'
+  },
+  {
+    'imgUrl': 'xp80_55.jpg',
+    'name': '小米电视4A 55英寸'
+  },
+  {
+    'imgUrl': 'xp80_65.jpg',
+    'name': '小米电视4A 65英寸'
+  },
+  {
+    'imgUrl': 'xin55.png',
+    'name': '小米电视4C 43英寸'
+  },
+  {
+    'imgUrl': '4C5080.80.jpg',
+    'name': '小米电视4C 50英寸'
+  },
+  {
+    'imgUrl': 'xin43.png',
+    'name': '小米电视4C 55英寸'
+  },
+  {
+    'imgUrl': '80_8032tv.jpg',
+    'name': '小米电视4A 32英寸体育版'
+  },
+  {
+    'imgUrl': 'tiyu4380_80.jpg',
+    'name': '小米电视4A 43英寸体育版'
+  },
+  {
+    'imgUrl': '80_8055tv.jpg',
+    'name': '小米电视4C 55英寸体育版\xa0'
+  },
+  {
+    'imgUrl': '80xmds_49.jpg',
+    'name': '小米电视4 49英寸'
+  },
+  {
+    'imgUrl': '80xmds_55.jpg',
+    'name': '小米电视4 55英寸'
+  },
+  {
+    'imgUrl': '80xmds_65.jpg',
+    'name': '小米电视4 65英寸'
+  },
+  {
+    'imgUrl': '4S55-80-80.png',
+    'name': '小米电视4S 55英寸'
+  },
+  {
+    'imgUrl': '80_80.jpg',
+    'name': '小米电视4S 50英寸'
+  },
+  {
+    'imgUrl': '324S80.80.jpg',
+    'name': '小米电视4S 32英寸'
+  },
+  {
+    'imgUrl': 'hezibai480_80.jpg',
+    'name': '小米盒子4'
+  },
+  {
+    'imgUrl': 'heihezi4c80_80.jpg',
+    'name': '小米盒子4c'
+  },
+  {
+    'imgUrl': 'hezi3zenqiang.jpg',
+    'name': '小米盒子3 增强版'
+  },
+  {
+    'imgUrl': 'hezi80-80.jpg',
+    'name': '小米盒子3c'
+  }
+]
+笔记本 [
+  {
+    'imgUrl': '80x80youxichuantu.png',
+    'name': '小米游戏本 15.6"'
+  },
+  {
+    'imgUrl': 'bijiben80.jpg',
+    'name': '笔记本Air 12.5"'
+  },
+  {
+    'imgUrl': 'bijiben80.jpg',
+    'name': '笔记本Air 13.3" 独显'
+  },
+  {
+    'imgUrl': 'bijiben80.jpg',
+    'name': '笔记本Air 13.3" 集显'
+  },
+  {
+    'imgUrl': '80x80.png',
+    'name': '笔记本Air 13.3" 四核增强'
+  },
+  {
+    'imgUrl': 'WechatIMG605.png',
+    'name': '笔记本Pro 15.6"'
+  },
+  {
+    'imgUrl': 'bjbcdq80.jpg',
+    'name': 'USB-C电源适配器'
+  },
+  {
+    'imgUrl': 'usbzjqggg80.jpg',
+    'name': 'HDMI转接器'
+  },
+  {
+    'imgUrl': 'vga.png',
+    'name': 'VGA 千兆网口转接器'
+  },
+  {
+    'imgUrl': 'neidanbao80.jpg',
+    'name': '小米笔记本内胆包'
+  },
+  {
+    'imgUrl': 'ymjp80.jpg',
+    'name': '悦米机械键盘'
+  },
+  {
+    'imgUrl': 'jianpanbashi.jpg',
+    'name': '悦米机械键盘Pro静音版'
+  },
+  {
+    'imgUrl': 'shubiao80.jpg',
+    'name': '小米便携鼠标'
+  },
+  {
+    'imgUrl': 'wxsb80.png',
+    'name': '小米无线鼠标'
+  },
+  {
+    'imgUrl': 'xmsbd80.jpg',
+    'name': '鼠标垫'
+  },
+  {
+    'imgUrl': 'USBC80.jpg',
+    'name': 'DisplayPort转接器'
+  },
+  {
+    'imgUrl': '6838xiaozhuanjieqi.png',
+    'name': 'USB至千兆网口转接器'
+  }
+]
+智能 家电 [
+  {
+    'imgUrl': 'jinghuaqi2-80.jpg',
+    'name': '空气净化器2'
+  },
+  {
+    'imgUrl': 'jinghuaqiPro-80.jpg',
+    'name': '空气净化器Pro'
+  },
+  {
+    'imgUrl': 'jinghuaqi2S-80.jpg',
+    'name': '净化器2S'
+  },
+  {
+    'imgUrl': 'jinghuaqiMAX-80.jpg',
+    'name': '净化器MAX'
+  },
+  {
+    'imgUrl': 'czjhq80.jpg',
+    'name': '车载空气净化器'
+  },
+  {
+    'imgUrl': 'kongjinlvxin-80.jpg',
+    'name': '空净滤芯'
+  },
+  {
+    'imgUrl': 'jingshuicxs-80.jpg',
+    'name': '净水器(厨下式)'
+  },
+  {
+    'imgUrl': 'jingshuiqiandlvxin-80.jpg',
+    'name': '净水器滤芯'
+  },
+  {
+    'imgUrl': 'shuihu80.jpg',
+    'name': '米家恒温电水壶'
+  },
+  {
+    'imgUrl': 'dianshuihu-80.jpg',
+    'name': '米家电水壶'
+  },
+  {
+    'imgUrl': 'jianceyi-80.jpg',
+    'name': 'PM2.5检测仪'
+  },
+  {
+    'imgUrl': 'jiancebi-80.jpg',
+    'name': '水质TDS检测笔'
+  },
+  {
+    'imgUrl': 'jiqiren.jpg',
+    'name': '扫地机器人'
+  },
+  {
+    'imgUrl': 'saodipeijian-80.jpg',
+    'name': '扫地机附件'
+  },
+  {
+    'imgUrl': 'yalidianfanbao-80.jpg',
+    'name': '米家电饭煲'
+  },
+  {
+    'imgUrl': 'diancilu-80.jpg',
+    'name': '米家电磁炉'
+  },
+  {
+    'imgUrl': 'tangguo-80.jpg',
+    'name': '知吾煮厨具'
+  },
+  {
+    'imgUrl': 'touyingdianshi-80.jpg',
+    'name': '激光投影电视'
+  },
+  {
+    'imgUrl': 'jingshuiqi80haha.jpg',
+    'name': '小米净水器 1A （厨下式）'
+  },
+  {
+    'imgUrl': 'tixvdao80.jpg',
+    'name': '剃须刀'
+  },
+  {
+    'imgUrl': 'lvxinbashi.png',
+    'name': '小米净水器滤芯'
+  }
+]
+健康 家居 [
+  {
+    'imgUrl': 'shouhuan.jpg',
+    'name': '手环'
+  },
+  {
+    'imgUrl': 'yundongshoubiao-80.jpg',
+    'name': '手表'
+  },
+  {
+    'imgUrl': 'tizhicheng-80.jpg',
+    'name': '小米体脂秤'
+  },
+  {
+    'imgUrl': 'scale.jpg',
+    'name': '小米体重秤'
+  },
+  {
+    'imgUrl': 'yashua80.jpg',
+    'name': '米家电动牙刷'
+  },
+  {
+    'imgUrl': 'zhinengjiatingtaozhuang-80.jpg',
+    'name': '智能家庭组合'
+  },
+  {
+    'imgUrl': 'zhinengchazuo-80.jpg',
+    'name': '米家智能插座'
+  },
+  {
+    'imgUrl': 'flashlight-80.jpg',
+    'name': '手电筒'
+  },
+  {
+    'imgUrl': 'LEDtaideng-80.jpg',
+    'name': '米家LED智能台灯'
+  },
+  {
+    'imgUrl': 'flptaideng-80.jpg',
+    'name': '米家飞利浦台灯'
+  },
+  {
+    'imgUrl': 'nightlight-80.jpg',
+    'name': '米家感应夜灯'
+  },
+  {
+    'imgUrl': 'mj-bedsidelamp-80.jpg',
+    'name': '床头灯'
+  },
+  {
+    'imgUrl': 'xidingdeng-80.jpg',
+    'name': '吸顶灯'
+  },
+  {
+    'imgUrl': 'colorfullamp-80.jpg',
+    'name': '智能灯泡'
+  },
+  {
+    'imgUrl': 'micamera-80.jpg',
+    'name': '米家小白智能摄像机'
+  },
+  {
+    'imgUrl': 'camera-head-80.jpg',
+    'name': '米家智能摄像机云台版'
+  },
+  {
+    'imgUrl': 'xiaofang-80.jpg',
+    'name': '小方智能摄像机'
+  },
+  {
+    'imgUrl': 'dafang-80.jpg',
+    'name': '大方智能摄像机'
+  },
+  {
+    'imgUrl': 'mj-camera-1080p80.jpg',
+    'name': '米家智能摄像机1080P'
+  },
+  {
+    'imgUrl': 'smartcamera-v80.jpg',
+    'name': '小白智能摄像机大众版'
+  },
+  {
+    'imgUrl': 'fyhnhn.jpg',
+    'name': '米家蓝牙温湿度计'
+  }
+]
+出行 儿童 [
+  {
+    'imgUrl': 'scooter-80.jpg',
+    'name': '九号平衡车'
+  },
+  {
+    'imgUrl': 'phcplus80.jpg',
+    'name': '九号平衡车Plus'
+  },
+  {
+    'imgUrl': 'scooter2-80.jpg',
+    'name': '米家电动滑板车'
+  },
+  {
+    'imgUrl': 'zxc80-80.jpg',
+    'name': '电助力折叠自行车'
+  },
+  {
+    'imgUrl': 'jly80.jpg',
+    'name': '行车记录仪'
+  },
+  {
+    'imgUrl': 'mirror-80.jpg',
+    'name': '70迈智能后视镜'
+  },
+  {
+    'imgUrl': 'XIAOFEIJIBASHI.jpg',
+    'name': '米兔遥控小飞机'
+  },
+  {
+    'imgUrl': 'shoubiao280.jpg',
+    'name': '米兔儿童手表2'
+  },
+  {
+    'imgUrl': 'toyblock2-80.jpg',
+    'name': '米兔智能积木'
+  },
+  {
+    'imgUrl': 'mitugushi-80.jpg',
+    'name': '米兔故事机'
+  },
+  {
+    'imgUrl': 'toyblock-80.jpg',
+    'name': '积木机器人'
+  },
+  {
+    'imgUrl': 'locatephone-80.jpg',
+    'name': '米兔定位电话'
+  },
+  {
+    'imgUrl': 'jimumumu.jpg',
+    'name': '米兔轨道积木'
+  },
+  {
+    'imgUrl': 'wurenji80.jpg',
+    'name': '小米无人机'
+  },
+  {
+    'imgUrl': 'djj80.jpg',
+    'name': '米家对讲机'
+  },
+  {
+    'imgUrl': 'camera-small-80.jpg',
+    'name': '米家小相机'
+  },
+  {
+    'imgUrl': 'mj-panorama-camera-80.jpg',
+    'name': '米家全景相机'
+  },
+  {
+    'imgUrl': 'yi-camera-m1-80.jpg',
+    'name': '小蚁微单相机'
+  },
+  {
+    'imgUrl': 'houshijing80.jpg',
+    'name': '小米米家智能后视镜'
+  },
+  {
+    'imgUrl': 'bashixiaoaimini.jpg',
+    'name': '小米小爱音箱mini'
+  }
+]
+路由器 手机配件 [
+  {
+    'imgUrl': 'miwifi3-80.jpg',
+    'name': '小米路由器3'
+  },
+  {
+    'imgUrl': 'miwifi3c-80.jpg',
+    'name': '小米路由器3C'
+  },
+  {
+    'imgUrl': 'miwifi3g-80.jpg',
+    'name': '小米路由器3G'
+  },
+  {
+    'imgUrl': 'miwifi3a-80.jpg',
+    'name': '小米路由器3A'
+  },
+  {
+    'imgUrl': 'luyouqiPro-80.jpg',
+    'name': '小米路由器Pro'
+  },
+  {
+    'imgUrl': 'luyouqiHD-80.jpg',
+    'name': '小米路由器HD'
+  },
+  {
+    'imgUrl': 'WiFifangdaqi2-80.jpg',
+    'name': 'WiFi放大器2'
+  },
+  {
+    'imgUrl': 'WiFifangdaqiPro-80.jpg',
+    'name': 'WiFi放大器Pro'
+  },
+  {
+    'imgUrl': 'plc-80.jpg',
+    'name': 'WiFi电力猫'
+  },
+  {
+    'imgUrl': 'VRPLAY2.png',
+    'name': '小米VR眼镜'
+  },
+  {
+    'imgUrl': 'miniwifi-80.jpg',
+    'name': '随身WIFI'
+  },
+  {
+    'imgUrl': 'qianzhaowangxian-80.jpg',
+    'name': '千兆网线'
+  },
+  {
+    'imgUrl': 'baohu.jpg',
+    'name': '手机保护套'
+  },
+  {
+    'imgUrl': 'tiemo.jpg',
+    'name': '手机贴膜'
+  },
+  {
+    'imgUrl': 'zipaigan80.jpg',
+    'name': '自拍杆'
+  },
+  {
+    'imgUrl': 'shujuxian-80.jpg',
+    'name': '数据线'
+  },
+  {
+    'imgUrl': 'cunchu80x80.jpg',
+    'name': '存储卡'
+  }
+]
+移动电源 插线板 [
+  {
+    'imgUrl': 'dianyuan2.100080.jpg',
+    'name': '新小米移动电源2'
+  },
+  {
+    'imgUrl': 'dianyuan2c-80.jpg',
+    'name': '小米移动电源2C'
+  },
+  {
+    'imgUrl': 'dianyuan2-5qian-80.jpg',
+    'name': '小米移动电源2'
+  },
+  {
+    'imgUrl': 'shoudiantong8080.jpg',
+    'name': '小米随身手电筒'
+  },
+  {
+    'imgUrl': 'baohutao80.jpg',
+    'name': '移动电源保护套'
+  },
+  {
+    'imgUrl': '7Battery1.jpg',
+    'name': '彩虹电池7号'
+  },
+  {
+    'imgUrl': '5Battery1.jpg',
+    'name': '彩虹5号电池（10粒装）'
+  },
+  {
+    'imgUrl': 'chongdianqi-80.jpg',
+    'name': 'USB充电器'
+  },
+  {
+    'imgUrl': 'chezaichongdianqi80.jpg',
+    'name': '小米车载充电器'
+  },
+  {
+    'imgUrl': 'fengshan80.jpg',
+    'name': '米家随身风扇'
+  },
+  {
+    'imgUrl': 'chaxianbanusb-80.jpg',
+    'name': '小米插线板USB版'
+  },
+  {
+    'imgUrl': 'chaxianban6wei-80.jpg',
+    'name': '米家插线板6位 基础版'
+  },
+  {
+    'imgUrl': 'chaxianban3wei-80.jpg',
+    'name': '米家插线板3位长线版'
+  },
+  {
+    'imgUrl': 'c1xb343.jpg',
+    'name': '米家智能插线板'
+  }
+]
+耳机 音箱 [
+  {
+    'imgUrl': '80xiangquan.jpg',
+    'name': '小米蓝牙项圈耳机'
+  },
+  {
+    'imgUrl': 'xiaomiyouxierjiyi.jpg',
+    'name': '小米游戏耳机'
+  },
+  {
+    'imgUrl': 'erji80.jpg',
+    'name': '小米双单元半入耳式耳机'
+  },
+  {
+    'imgUrl': 'qtpro80.jpg',
+    'name': '小米圈铁耳机 Pro'
+  },
+  {
+    'imgUrl': 'quantie.jpg',
+    'name': '小米圈铁耳机'
+  },
+  {
+    'imgUrl': 'huosai1.jpg',
+    'name': '小米活塞耳机 清新版'
+  },
+  {
+    'imgUrl': 'xmjzej80.jpg',
+    'name': '小米降噪耳机'
+  },
+  {
+    'imgUrl': 'jiaonang80.jpg',
+    'name': '小米胶囊耳机'
+  },
+  {
+    'imgUrl': 'toudai80.jpg',
+    'name': '小米头戴式耳机'
+  },
+  {
+    'imgUrl': 'yundong80.jpg',
+    'name': '小米运动蓝牙耳机'
+  },
+  {
+    'imgUrl': '3-80.jpg',
+    'name': '小米运动蓝牙耳机mini'
+  },
+  {
+    'imgUrl': 'bluetoothheadset.jpg',
+    'name': '小米蓝牙耳机'
+  },
+  {
+    'imgUrl': '20170707135935.jpg',
+    'name': '小米蓝牙音频接收器'
+  },
+  {
+    'imgUrl': 'tdsqs80.jpg',
+    'name': '小米头戴式耳机 轻松版'
+  },
+  {
+    'imgUrl': 'pinpai80.jpg',
+    'name': '品牌耳机'
+  },
+  {
+    'imgUrl': '80x80.jpg',
+    'name': '小米AI音箱'
+  },
+  {
+    'imgUrl': 'xiaogangpao2-hei-80.jpg',
+    'name': '小米小钢炮蓝牙音箱2'
+  },
+  {
+    'imgUrl': 'fhzlyyx80.jpg',
+    'name': '小米方盒子蓝牙音箱2'
+  },
+  {
+    'imgUrl': 'pocketaudio.png',
+    'name': '小米蓝牙音箱'
+  },
+  {
+    'imgUrl': 'suishen-80.jpg',
+    'name': '小米随身蓝牙音箱'
+  },
+  {
+    'imgUrl': 'mituyinx80.jpg',
+    'name': '小米米兔音箱'
+  },
+  {
+    'imgUrl': 'yinxiangmini80.jpg',
+    'name': '小爱音箱mini'
+  },
+  {
+    'imgUrl': '80.....80.jpg',
+    'name': '小米电视音响'
+  }
+]
+生活 米兔 [
+  {
+    'imgUrl': 'lvxingxiang.jpg',
+    'name': '旅行箱'
+  },
+  {
+    'imgUrl': 'xiangbao-80.jpg',
+    'name': '双肩包'
+  },
+  {
+    'imgUrl': 'ertongshubao.80.jpg',
+    'name': '儿童书包'
+  },
+  {
+    'imgUrl': 'xiongbao-80.jpg',
+    'name': '胸包'
+  },
+  {
+    'imgUrl': 'qianbao-80.jpg',
+    'name': '钱包'
+  },
+  {
+    'imgUrl': 'shounabao-80.jpg',
+    'name': '收纳包'
+  },
+  {
+    'imgUrl': 'txv80.jpg',
+    'name': '服饰'
+  },
+  {
+    'imgUrl': 'ydx80.jpg',
+    'name': '运动鞋'
+  },
+  {
+    'imgUrl': 'weibo-80.jpg',
+    'name': '围巾'
+  },
+  {
+    'imgUrl': 'tyj80.jpg',
+    'name': '眼镜'
+  },
+  {
+    'imgUrl': 'qianzibi-80.jpg',
+    'name': '米家签字笔'
+  },
+  {
+    'imgUrl': 'duoyongbijiben-80.jpg',
+    'name': '文具'
+  },
+  {
+    'imgUrl': 'baoxianhe.80.jpg',
+    'name': '玻璃保鲜盒'
+  },
+  {
+    'imgUrl': 'san.jpg',
+    'name': '自动折叠伞'
+  },
+  {
+    'imgUrl': 'luosidao-80.jpg',
+    'name': '米家 wiha 精修螺丝刀套装'
+  },
+  {
+    'imgUrl': 'mitu-80.jpg',
+    'name': '米兔玩偶'
+  },
+  {
+    'imgUrl': 'cilijimu.80.jpg',
+    'name': '米兔磁力积木'
+  },
+  {
+    'imgUrl': 'yashua80.jpg',
+    'name': '牙刷'
+  },
+  {
+    'imgUrl': 'shafa.80.png',
+    'name': '沙发'
+  },
+  {
+    'imgUrl': 'zhent.ou80.png',
+    'name': '枕头'
+  },
+  {
+    'imgUrl': 'beizi8.0..png',
+    'name': '被子'
+  },
+  {
+    'imgUrl': 'chuangdian-80-80.jpg',
+    'name': '床垫'
+  },
+  {
+    'imgUrl': 'sijiantao-80-80.jpg',
+    'name': '针织件套'
+  },
+  {
+    'imgUrl': 'jinmitu.jpg',
+    'name': '饰品'
+  }
+]

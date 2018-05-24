@@ -1,0 +1,267 @@
+@import "../reset.css";
+@import "../common.css";
+
+html, body {
+  margin: 0 auto;
+  padding: 0;
+  background: #fff;
+  width: 1226px
+}
+
+.xmFlashPurchase {
+  position: relative;
+  margin: 0;
+  padding: 0;
+
+}
+
+.hd {
+  margin: 10px auto;
+  position: relative;
+  width: 100%;
+  height: 40px;
+  line-height: 58px;
+
+  h2 {
+    position: absolute;
+    display: block;
+    font-size: 22px;
+    text-align: center;
+  }
+  .more {
+    display: block;
+    position: absolute;
+    left: 1150px;
+    margin-top: 12px;
+    height: 24px;
+    line-height: 24px;
+    align-items:center;
+
+    .xmControl {
+      position: relative;
+      width: 80px;
+      height: 24px;
+      line-height: 24px;
+      text-align: center;
+
+      .xmLeft {
+        position: absolute;
+        display: inline-block;
+        left: 0;
+        width: 24px;
+        font-weight: bold;
+        color:rgba(176,176,176,.8) ;
+        line-height: 20px;
+        text-align: center;
+        padding: 3px 5px;
+        border: 1px solid rgb(224,224,224);
+
+        &:hover{
+          color: orange;
+        }
+      }
+      .xmRight {
+        position: absolute;
+        display: inline-block;
+        left: 36px;
+        width: 24px;
+        font-weight: bold;
+        color:rgba(176,176,176,.8) ;
+        line-height: 20px;
+        text-align: center;
+        padding: 3px 5px;
+        border: 1px solid rgb(224,224,224);
+
+        &:hover{
+          color: orange;
+        }
+      }
+    }
+  }
+}
+
+.bd {
+  width: 100%;
+  height: 340px;
+  display: -webkit-flex;
+  display: flex;
+
+
+  .flashPurchase {
+    position: relative;
+    margin-right: 14px;
+    padding-top: 39px;
+    border-top: 1px solid red;
+    width: 234px;
+    height: 300px;
+    background: rgb(241,237,237);
+
+    .timeTitle{
+      width: 100%;
+      height: 31.2px;
+      font-size: 21px;
+      color: #ef3a3b;
+      padding-top: 15px;
+      text-align: center;
+    }
+    img{
+      display: block;
+      margin: 25px auto;
+      left: 50%;
+    }
+    .prompt{
+      display: block;
+      font-size: 15px;
+      width: 100%;
+      text-align: center;
+      line-height: 22.5px;
+      color: rgba(0,0,0,0.54);
+
+    }
+    .timeBox{
+      display: -webkit-flex;
+      display: flex;
+      justify-content: center;
+      margin: 30px auto;
+      padding: 0;
+
+      height: 46px;
+
+      .hour{
+        float: left;
+        display: inline-block;
+        left: 33px;
+        width: 46px;
+        text-align: center;
+        line-height: 46px;
+        font-size:24px;
+        background: rgb(96,87,81);
+        color: rgb(255,255,255);
+      }
+      .dosh1{
+        display: block;
+        float: left;
+        width:15px ;
+        text-align: center;
+        line-height: 46px;
+        font-size: 28px;
+        color:rgb(96,87,81);
+      }
+      .minute{
+        display: block;
+        width: 46px;
+        line-height: 46px;
+        text-align: center;
+        font-size:24px;
+        background: rgb(96,87,81);
+        color: rgb(255,255,255);
+      }
+      .dosh2{
+        display: block;
+        float: left;
+        width:15px ;
+        text-align: center;
+        line-height: 46px;
+        font-size: 28px;
+        color:rgb(96,87,81);
+      }
+      .second{
+        display: block;
+        width: 46px;
+        text-align: center;
+        line-height: 46px;
+        font-size:24px;
+        background: rgb(96,87,81);
+        color: rgb(255,255,255);
+      }
+    }
+  }
+
+  .goodsBox {
+    position: relative;
+    width: 992px;
+    overflow: hidden;
+    .goodsWrapper{
+      position: absolute;
+      width: 1984px;
+      left: 0;
+      top:0;
+      transition: all 0.5s  ease ;
+
+      li{
+        //display: block;
+        float: left;
+        margin-right: 14px;
+        padding-top: 39px;
+        width: 234px;
+        height: 300px;
+        //background: #fff;
+        background-color:  rgba(0,0,0,0.02);
+
+      }
+      li:nth-of-type(3n+1){
+        border-top: 1px solid orange;
+      }
+      li:nth-of-type(3n+2){
+        border-top: 1px solid lightgreen;
+      }
+      li:nth-of-type(3n+3){
+        border-top: 1px solid deepskyblue;
+      }
+      li:nth-of-type(3n){
+        border-top: 1px solid red;
+      }
+
+      li img{
+        width: 160px;
+        height: 165.6px;
+        margin: 0 37px 22px 37px;
+      }
+      li h3{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        height: 21px;
+        line-height: 21px;
+        font-size: 14px;
+        color: #212121;
+      }
+      li p:first-of-type{
+        margin: 0 20px 12px 20px;
+        text-align: center;
+        font-size: 12px;
+        color: #b0b0b0;
+      }
+      li p:last-of-type{
+        text-align: center;
+        line-height: 21px;
+        span{
+          color: #ff6709;
+        }
+        del{
+          color:#b0b0b0;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
