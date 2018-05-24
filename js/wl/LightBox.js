@@ -22,8 +22,9 @@
             this.container = document.querySelector(container);
             this.Mask = document.querySelector('.wl-mask');
             this.poPup = document.querySelector('.wl-popup');
+            this.video = this.poPup.querySelector('video');
             this.Close = this.poPup.querySelector('.close');
-            this.Play = this.poPup.querySelector('.play');
+            /*this.Play = this.poPup.querySelector('.play');*/
 
             this.init();
         }
@@ -119,12 +120,13 @@
                         </a>
                     </h6>
                     <div class="video-wrap">
-                        <video src="${video}"
-                               poster="${pic}" controls></video>
+                        <video poster="${pic}" controls>
+                               <source src="${video}">
+                        </video>
                     </div>
-                    <a href="javascript:void(0)" class="play">
+                    <!--<a href="javascript:void(0)" class="play">
                         <i class="icon iconfont icon-bofang"></i>
-                    </a>`
+                    </a>-->`
         }
 
         // 控制弹框显示隐藏 & 播放
@@ -185,6 +187,7 @@
                     targetName = target.tagName;
                 ev.stopPropagation ? ev.stopPropagation() : ev.cancelBubble = true;
 
+
                 if (targetName === 'I') {
                     target = target.parentNode;
                     targetName = target.tagName;
@@ -194,18 +197,11 @@
                     _self.close();
                 }
 
-                if (targetName === 'A' && target.className === 'play') {
-                    console.log(1)
-                }
+                /*if (targetName === 'A' && target.className === 'play') {
+                    _self.video.play();
+                }*/
 
             })
-        }
-
-        // 视频播放
-        play(){
-            this.Play.onclick=function () {
-                console.log(1)
-            }
         }
 
         // 蒙层
