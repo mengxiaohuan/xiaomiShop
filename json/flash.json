@@ -1,0 +1,67 @@
+[
+  {
+    "id":1,
+    "img":"../img/shuihu80.jpg",
+    "title":"米家恒温电水壶 白色",
+    "desc":"一杯水的温度，刚刚好",
+    "price":"189",
+    "delPrice":"199"
+  },
+  {
+    "id":1,
+    "img":"../img/jinghuaqi2S-80.jpg",
+    "title":"空气净化器",
+    "desc":"大空间，快循环",
+    "price":"349",
+    "delPrice":"399"
+  },
+  {
+    "id":1,
+    "img":"../img/xiaofang-80.jpg",
+    "title":"小米摄像头",
+    "desc":"OLED显示屏，触摸操作",
+    "price":"169",
+    "delPrice":"199"
+  },
+  {
+    "id":1,
+    "img":"../img/80x80youxichuantu.png",
+    "title":"小米游戏本 15.6英寸",
+    "desc":"窄边框全高清屏",
+    "price":"8999",
+    "delPrice":"9999"
+  },
+  {
+    "id":1,
+    "img":"../img/flptaideng-80.jpg",
+    "title":"Yeelight LED吸顶灯 白色",
+    "desc":"场景联动，好光好自然",
+    "price":"199",
+    "delPrice":"299"
+  },
+  {
+    "id":1,
+    "img":"../img/note3-80-2.png",
+    "title":"小米手机 Note3",
+    "desc":"全金属机身",
+    "price":"1899",
+    "delPrice":"1999"
+  },
+  {
+    "id":1,
+    "img":"../img/80x80.png",
+    "title":"小米笔记本 Air13.3 i7 8G 256G  ",
+    "desc":"轻薄全金属，超长待机",
+    "price":"5588",
+    "delPrice":"5999"
+  },
+  {
+    "id":1,
+    "img":"../img/smartcamera-v80.jpg",
+    "title":"小米智能相机",
+    "desc":"智能拍摄",
+    "price":"888",
+    "delPrice":"999"
+  }
+
+]
