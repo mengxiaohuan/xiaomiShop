@@ -1,0 +1,26 @@
+.center-body{
+    width: 1226px;
+    height:auto;
+    margin: 0 auto;
+    font-size:0;
+}
+.left-center{
+    display: inline-block;
+    font-size: 15px;
+    width:248px;
+    height:614px;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+.right-center{
+    display:inline-block ;
+    font-size: 15px;
+    border:1px solid orange;
+    width:970px;
+    height:614px;
+    box-sizing: border-box;
+}
+
+
+
+
