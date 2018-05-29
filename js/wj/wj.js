@@ -68,47 +68,44 @@ swiperInit();
 })();
 bannerRender.init();*!/*/
 
-let banner=(function () {
-
-    let
-    $wrapper=$('.wrapper'),
-    $leftBox=$wrapper.find('.wj-container>.wj-pic'),
-    $rightBox=$wrapper.find('.wj-container>.wj-lipic>.wj-licon');
-    let queryData=function () {
-        return new Promise(resolve=>{
+let banner = (function () {
+    let $wrapper = $('.wrapper'),
+        $leftBox = $wrapper.find('.wj-container>.wj-pic'),
+        $rightBox = $wrapper.find('.wj-container>.wj-lipic>.wj-licon');
+    let queryData = function () {
+        return new Promise(resolve => {
             $.ajax({
-                url:'../json/tsconfig.json',
-                method:"GET",
-                dataType:'json',
-                success:resolve
+                url: '../json/tsconfig.json',
+                method: "GET",
+                dataType: 'json',
+                success: resolve
             });
         });
     };
-    let bindHTML=function (data) {
-        $.each(data,(index,item)=>{
-            let {imgUrl:leftUrl,hot={},len={},pic={},pon={}}=item;
-           if (index<=1){
-               $(`    <li><a href=""><img src="${leftUrl}" alt=""></a></li>`).appendTo($leftBox);
-               return;
-           }
-           if(index==2) bind(hot);
-           if(index==3) bind(len);
-           if(index==4) bind(pic);
-           if(index==5) bind(pon);
+    let bindHTML = function (data) {
+        $.each(data, (index, item) => {
+            let {imgUrl: leftUrl, hot = {}, len = {}, pic = {}, pon = {}} = item;
+            if (index <= 1) {
+                $(`<li><a href=""><img src="${leftUrl}" alt=""></a></li>`).appendTo($leftBox);
+                return;
+            }
+            if (index == 2) bind(hot);
+            if (index == 3) bind(len);
+            if (index == 4) bind(pic);
+            if (index == 5) bind(pon);
         })
     };
-let bind=function (data) {
-    let str='<div class=\'dataBox\'><ul class="clearfix">' ;
-    $.each(data,(i,cur)=>{
-        let {
-            imgUrl,
-            title,
-            newprice
-
-        }=cur;
-        /*oldprice=oldprice?``*/
-        if(i==data.length-1){
-            str+=`<li class="last">
+    let bind = function (data) {
+        let str = '<div class=\'dataBox\'><ul class="clearfix">';
+        $.each(data, (i, cur) => {
+            let {
+                imgUrl,
+                title,
+                newprice
+            } = cur;
+            /*oldprice=oldprice?``*/
+            if (i == data.length - 1) {
+                str += `<li class="last">
                             <div class="title f14">
                                 <span>${title}</span>
                                 <div class="price">
@@ -120,9 +117,9 @@ let bind=function (data) {
                             </a>
 
                         </li>`;
-            return;
-        }
-    str+=`<li class="active">
+                return;
+            }
+            str += `<li class="active">
                     <div><a href=""><img src="${imgUrl}" alt=""></a></div>
                     <h3><a href="">${title} </a></h3>
                     <p class="wj-ptop">${newprice}元</p>
@@ -131,9 +128,8 @@ let bind=function (data) {
                         <span class="wj-span2">来自于20人的评价</span>
                     </a></div>
                 </li>`;
-
-    });
-    str+=`<li class="brick-item brick-item-s">
+        });
+        str += `<li class="brick-item brick-item-s">
                             <div class="title">
                                 <span class="f18">浏览更多</span>
                                 <span class="f12">家电</span>
@@ -143,33 +139,31 @@ let bind=function (data) {
                             </a>
 
                         </li>`;
-    str+='</ul></div>';
-    console.log(str);
-    $(str).appendTo($rightBox);
-};
+        str += '</ul></div>';
+        // console.log(str);
+        $(str).appendTo($rightBox);
+    };
 
-let changeTab=function () {
+    let changeTab = function () {
 
-    new TabPlugin($wrapper[0],{
-        customPageClass:'wj-right',
-        customContentClass:'dataBox',
-        changeEnd:function (curLi,curCon,index,lastIndex) {
+        new TabPlugin($wrapper[0], {
+            customPageClass: 'wj-right',
+            customContentClass: 'dataBox',
+            changeEnd: function (curLi, curCon, index, lastIndex) {
 
-        }
-    })
-};
-
-
+            }
+        })
+    };
 
 
     return {
-        init:function () {
-       let promise=queryData();
-       promise.then(data=>{
-           bindHTML(data)
-       }).then(()=>{
-           changeTab();
-       })
+        init: function () {
+            let promise = queryData();
+            promise.then(data => {
+                bindHTML(data)
+            }).then(() => {
+                changeTab();
+            })
         }
     }
 })();

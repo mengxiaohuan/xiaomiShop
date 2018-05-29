@@ -5,13 +5,158 @@
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="../css/reset.css">
     <link rel="stylesheet" type="text/css" href="../css/common.css">
-    <link rel="stylesheet" type="text/css" href="../css/slide.css">
-    <link rel="stylesheet" type="text/css" href="../js/font/iconfont.css">
+    <!--plug-in CSS-->
+    <link rel="stylesheet" href="../css/wl/font/iconfont.css">
     <link rel="stylesheet" href="../js/banner/css/banner.css">
     <script src="../js/font/iconfont.css"></script>
+    <!-- style-->
+    <link rel="stylesheet" type="text/css" href="../css/slide.css">
+    <link rel="stylesheet" href="../css/wl/wl.css">
 </head>
 <body>
-<section class="container">
+<!-- header -->
+<header class="wl-header">
+    <!-- top -->
+    <div class="header-top">
+        <section class="contain clearfix">
+            <!-- left -->
+            <div class="fl">
+                <ul class="left">
+                    <li>
+                        <a href="javascript:void(0)">小米商城</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">MIUI</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">loT</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">云服务</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">水滴</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">金融</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">有品</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">政企服务</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">Select Region</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- right -->
+            <div class="fr">
+                <ul class="fl">
+                    <li>
+                        <a href="javascript:void(0)">登录</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">注册</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">消息通知</a>
+                    </li>
+                </ul>
+                <!-- shopping-cart -->
+                <div class="fl shopping-cart">
+                    <a href="javascript:void(0)">
+                        <i class="icon iconfont icon-gouwuche"></i>
+                        购物车
+                        <span>(0)</span>
+                    </a>
+                    <!-- popup -->
+                    <div class="popup">
+                        <div class="loading">
+                            <div class="loader"></div>
+                        </div>
+                        <p class="cont">购物车中还没有商品，赶紧选购吧！</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- nav -->
+    <section class="contain header-nav clearfix">
+        <!-- logo -->
+        <a href="javascript:void(0)" class="logo fl"></a>
+        <!-- nav -->
+        <ul class="nav fl">
+            <li class="item">
+                <a href="javascript:void(0)">小米手机</a>
+            </li>
+            <li class="item">
+                <a href="javascript:void(0)">红米</a>
+            </li>
+            <li class="item">
+                <a href="javascript:void(0)">电视</a>
+            </li>
+            <li class="item">
+                <a href="javascript:void(0)">笔记本</a>
+            </li>
+            <li class="item">
+                <a href="javascript:void(0)">盒子</a>
+            </li>
+            <li class="item">
+                <a href="javascript:void(0)">新品</a>
+            </li>
+            <li class="item">
+                <a href="javascript:void(0)">路由器</a>
+            </li>
+            <li class="item">
+                <a href="javascript:void(0)">智能硬件</a>
+            </li>
+            <li>
+                <a href="javascript:void(0)">服务</a>
+            </li>
+            <li>
+                <a href="javascript:void(0)">社区</a>
+            </li>
+        </ul>
+        <!-- search-input -->
+        <div class="search-input fr">
+            <input type="search" class="fl">
+            <a href="javascript:void(0)" class="fl search-btn">
+                <i class="icon iconfont icon-sousuo"></i>
+            </a>
+            <div class="recommend">
+                <a href="javascript:void(0)">小米6X</a>
+                <a href="javascript:void(0)">红米Note 5</a>
+            </div>
+            <!--drop-down-->
+            <ul class="drop-down">
+                <!--<li>
+                    <a href="javascript:void(0)">
+                        <p>小米手机</p>
+                        <span>约有29件</span>
+                    </a>
+                </li>-->
+            </ul>
+        </div>
+    </section>
+    <!-- nav-down -->
+    <div class="nav-down">
+        <ul class="clearfix">
+            <!--<li>
+                <div>
+                    <a href="javascript:void(0)">
+                        <img src="../wl-img/logo-footer.png" height="57" width="56"/>
+                    </a>
+                </div>
+                <h6>小米MIX 2S</h6>
+                <span class="price">3299元起</span>
+            </li>-->
+        </ul>
+    </div>
+</header>
+<!--slide show-->
+<section class="contain">
     <div class="slide-show">
         <div class="navBox sidebar clearfix">
             <ul class="navShow nav-category clearfix">
@@ -40,5 +185,48 @@
 <script src="../js/banner/js/animate.js"></script>
 <script src="../js/banner/js/banner-plugin.js"></script>
 <script src="../js/nav-category.js"></script>
+<!---->
+<!-- contBanner -->
+<script src="../js/wl/contBanner.js"></script>
+<!-- LightBox -->
+<script src="../js/wl/LightBox.js"></script>
+<!-- wl -->
+<script src="../js/wl/wl.js"></script>
+<script>
+    // LightBox
+    new LightBox('#LightBox', {
+        url: '../json/video.json',
+        eventType: 'click'
+    });
+
+    // contBanner
+    new contBanner({
+        ele: '#banner-1',
+        url: '../json/contBook.json',
+        isAuto: false
+    });
+
+    // contBanner
+    new contBanner({
+        ele: '#banner-2',
+        url: '../json/contTheme.json',
+        isAuto: false
+    });
+
+    // contBanner
+    new contBanner({
+        ele: '#banner-3',
+        url: '../json/contGame.json',
+        isAuto: false
+    });
+
+    // contBanner
+    new contBanner({
+        ele: '#banner-4',
+        url: '../json/contApply.json',
+        isAuto: false
+    });
+</script>
+
 </body>
 </html>

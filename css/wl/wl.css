@@ -366,7 +366,7 @@ input::-webkit-search-cancel-button {
     right: 47px;
     border: 1px solid #ff6700;
     background: #fff;
-    z-index: 9;
+    z-index: 9999;
     visibility: hidden;
     opacity: 0;
     transition: all .3s ease;
@@ -413,7 +413,7 @@ input::-webkit-search-cancel-button {
     transform-origin: top;
     transform: scaleY(0);
     transition: all .2s ease;
-    z-index: 999;
+    z-index: 9999;
 }
 
 .wl-header .nav-down.pull {
@@ -683,7 +683,7 @@ input::-webkit-search-cancel-button {
     height: 275px;
 }
 
-.wl-cont > ul > li .cont-each-inner .inner{
+.wl-cont > ul > li .cont-each-inner .inner {
     float: left;
     width: 216px;
 }
@@ -767,7 +767,7 @@ input::-webkit-search-cancel-button {
     opacity: 1;
 }
 
-.wl-cont > ul > li .cont{
+.wl-cont > ul > li .cont {
     position: relative;
     width: 216px;
     height: 275px;
@@ -901,24 +901,24 @@ input::-webkit-search-cancel-button {
     width: 100%;
 }
 
-.wl-video-popup .play{
+.wl-video-popup .play {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     width: 60px;
     height: 60px;
     line-height: 60px;
     text-align: center;
     border-radius: 50%;
     color: #fff;
-    background: rgba(0,0,0,.3);
+    background: rgba(0, 0, 0, .3);
 }
 
-.wl-video-popup .play i{
+.wl-video-popup .play i {
     font-size: 22px;
     display: block;
-    transform: translate(2px,0);
+    transform: translate(2px, 0);
 }
 
 /* mask */

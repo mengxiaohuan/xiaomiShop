@@ -35,7 +35,7 @@ body {
     transform: translate3d(0, -2px, 0);
 }
 /*Main Container*/
-.container {
+.contain {
     width: 1226px;
     margin-right: auto;
     margin-left: auto;

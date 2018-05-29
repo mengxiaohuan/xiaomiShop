@@ -187,7 +187,6 @@
                         </li>`;
 
             str += '</ul></div>';
-            console.log(str);
 
             $(str).appendTo($rightBox);
         };
@@ -276,11 +275,6 @@
                 if (index == 4) bind(health);
                 if (index == 5) bind(coldplay);
                 if (index == 6) bind(router);
-                console.log(hot);
-                console.log(travel);
-                console.log(health);
-                console.log(coldplay);
-                console.log(router);
 
             });
         };
