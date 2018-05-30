@@ -21,7 +21,7 @@
     };
 
 
-    // 头部购物车
+    /*// 头部购物车
     let shopCart = (function () {
         // 获取元素
         let shop = document.querySelector('.shopping-cart'),
@@ -274,7 +274,7 @@
             }
         }
     })();
-    headerNav.inti();
+    headerNav.inti();*/
 
     // 为你推荐
     let forRecommend = (function () {
